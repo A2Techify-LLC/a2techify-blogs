@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">A2Techify Blogs logo</title>
+  <desc id="desc">A geometric A2 mark for the A2Techify Blogs site.</desc>
+  <rect width="256" height="256" rx="34" fill="#071015"/>
+  <path d="M48 190 102 58h26l54 132h-28l-12-31H87l-12 31H48Zm48-55h37l-18-49-19 49Z" fill="#5ed48a"/>
+  <path d="M158 78h45v22h-45V78Zm0 38h45v22h-45v-22Zm0 38h45v22h-45v-22Z" fill="#59d6df"/>
+  <circle cx="204" cy="58" r="12" fill="#f4c95d"/>
+</svg>
+

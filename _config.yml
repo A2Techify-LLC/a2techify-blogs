@@ -1,0 +1,26 @@
+title: "A2Techify Blogs"
+email: "a2techify@gmail.com"
+description: "Daily practical notes on the most useful new technology for builders, operators, and AI teams."
+baseurl: "/a2techify-blogs"
+url: "https://a2techify-llc.github.io"
+github_username: "A2Techify-LLC"
+author: "A2Techify"
+logo: "/assets/images/a2techify-blogs-logo.svg"
+image: "/assets/images/a2techify-blogs-card.svg"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+minima:
+  date_format: "%b %-d, %Y"
+  skin: classic
+
+header_pages:
+  - about.md
+
