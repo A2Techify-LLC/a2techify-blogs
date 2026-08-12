@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<article class="post-shell">
+  <header class="post-hero">
+    <div class="wrap post-hero-grid">
+      <div>
+        <div class="post-meta-line">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+          {% if page.categories.first %}
+            <span>{{ page.categories | join: " / " }}</span>
+          {% endif %}
+        </div>
+        <h1>{{ page.title }}</h1>
+        {% if page.tags %}
+          <div class="tag-row" aria-label="Tags">
+            {% for tag in page.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+
+      {% if page.sample_repo %}
+        <aside class="repo-panel" aria-label="Companion repository">
+          <span>Companion lab</span>
+          <strong>Runnable sample repo</strong>
+          <a href="{{ page.sample_repo }}">Open on GitHub</a>
+        </aside>
+      {% endif %}
+    </div>
+  </header>
+
+  <section class="content-section">
+    <div class="wrap article-grid">
+      <div class="article-rail" aria-hidden="true">
+        <span>brief</span>
+      </div>
+      <div class="prose">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+</article>

@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Daily applied AI and software research</span>
+      <h1>Engineering notes for builders who need the signal, not the spectacle.</h1>
+      <p>{{ site.description }}</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#latest">Read latest</a>
+        <a class="button secondary" href="https://github.com/{{ site.github_username }}">View labs</a>
+      </div>
+    </div>
+
+    <div class="signal-board" aria-label="A2Techify publishing pipeline">
+      <div class="board-topline">
+        <span>TECH RADAR</span>
+        <span>LIVE</span>
+      </div>
+      <div class="metric-row">
+        <span>source scan</span>
+        <strong>07:30 CT</strong>
+      </div>
+      <div class="metric-row">
+        <span>repo samples</span>
+        <strong>runnable</strong>
+      </div>
+      <div class="metric-row">
+        <span>brief format</span>
+        <strong>practical</strong>
+      </div>
+      <div class="terminal-card">
+        <span class="prompt">$</span>
+        <span>ship insight --cite --code</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="intro-band">
+  <div class="wrap intro-grid">
+    <div class="intro-copy">{{ content }}</div>
+    <div class="pill-row" aria-label="Coverage areas">
+      <span>Local AI</span>
+      <span>Agent Systems</span>
+      <span>Model Ops</span>
+      <span>Developer Tools</span>
+    </div>
+  </div>
+</section>
+
+<section id="latest" class="posts-section">
+  <div class="wrap">
+    <div class="section-heading">
+      <span class="eyebrow">Latest briefs</span>
+      <h2>What is worth a builder's time?</h2>
+    </div>
+
+    <div class="post-grid">
+      {% for post in site.posts %}
+        <article class="post-card">
+          <div class="post-card-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            {% if post.categories.first %}
+              <span>{{ post.categories.first }}</span>
+            {% endif %}
+          </div>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 170 }}</p>
+          <div class="post-card-footer">
+            <a class="read-link" href="{{ post.url | relative_url }}">Read brief</a>
+            {% if post.sample_repo %}
+              <a class="repo-link" href="{{ post.sample_repo }}">Sample repo</a>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
