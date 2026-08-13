@@ -161,11 +161,8 @@ a:hover {
 }
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.7fr);
-  gap: 48px;
-  align-items: center;
-  padding: 80px 0;
+  width: min(980px, calc(100% - 32px));
+  padding: 96px 0 84px;
 }
 
 .eyebrow {
@@ -193,14 +190,14 @@ a:hover {
 .post-hero h1,
 .page-hero h1 {
   margin: 18px 0 0;
-  max-width: 880px;
+  max-width: 940px;
   font-size: clamp(44px, 6.4vw, 86px);
   line-height: 0.96;
   letter-spacing: 0;
 }
 
 .hero p {
-  max-width: 650px;
+  max-width: 690px;
   margin: 24px 0 0;
   color: var(--muted);
   font-size: 20px;
@@ -224,76 +221,6 @@ a:hover {
   border-color: rgba(255, 202, 95, 0.46);
   color: var(--amber);
   background: rgba(255, 202, 95, 0.08);
-}
-
-.signal-board {
-  border: 1px solid rgba(140, 255, 193, 0.24);
-  border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(31, 36, 28, 0.96), rgba(14, 18, 13, 0.96));
-  box-shadow: var(--shadow);
-  padding: 22px;
-  position: relative;
-  overflow: hidden;
-}
-
-.signal-board::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 0;
-  height: 6px;
-  background: linear-gradient(90deg, var(--mint), var(--amber), var(--coral), var(--cyan));
-}
-
-.board-topline,
-.metric-row,
-.terminal-card {
-  position: relative;
-  z-index: 1;
-}
-
-.board-topline {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  color: var(--lime);
-  font-family: var(--mono);
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.metric-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 18px 0;
-  border-bottom: 1px solid rgba(247, 248, 245, 0.1);
-}
-
-.metric-row span {
-  color: var(--muted);
-}
-
-.metric-row strong {
-  color: var(--ink);
-  font-family: var(--mono);
-  text-transform: uppercase;
-}
-
-.terminal-card {
-  margin-top: 22px;
-  padding: 18px;
-  border: 1px solid rgba(128, 233, 255, 0.22);
-  border-radius: var(--radius);
-  background: #090c0a;
-  color: var(--cyan);
-  font-family: var(--mono);
-  font-size: 13px;
-  overflow-wrap: anywhere;
-}
-
-.prompt {
-  color: var(--coral);
-  margin-right: 8px;
 }
 
 .intro-band,
