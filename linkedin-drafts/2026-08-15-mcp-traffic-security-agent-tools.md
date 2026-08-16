@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Notes.
 
-Source post: https://a2techify-llc.github.io/a2techify-blogs/2026/08/15/mcp-traffic-security-agent-tools/
+Source post: https://blogs.a2techify.com/2026/08/15/mcp-traffic-security-agent-tools/
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -26,7 +26,7 @@ https://github.com/A2Techify-LLC/mcp-traffic-guard-lab
 
 ## CTA
 
-Read the full note: https://a2techify-llc.github.io/a2techify-blogs/2026/08/15/mcp-traffic-security-agent-tools/
+Read the full note: https://blogs.a2techify.com/2026/08/15/mcp-traffic-security-agent-tools/
 
 ## Publishing Notes
 
