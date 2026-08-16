@@ -1,0 +1,39 @@
+name: LinkedIn Drafts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "_posts/**/*.md"
+      - "tools/create-linkedin-drafts.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Generate LinkedIn drafts
+        run: node tools/create-linkedin-drafts.mjs
+
+      - name: Commit drafts
+        run: |
+          if git diff --quiet -- linkedin-drafts; then
+            echo "No LinkedIn draft changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add linkedin-drafts
+          git commit -m "Generate LinkedIn newsletter drafts"
+          git push

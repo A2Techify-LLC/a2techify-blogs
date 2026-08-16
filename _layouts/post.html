@@ -22,11 +22,16 @@ layout: default
         {% endif %}
       </div>
 
-      {% if page.sample_repo %}
-        <aside class="repo-panel" aria-label="Companion repository">
-          <span>Example code</span>
-          <strong>Try the working repo</strong>
-          <a href="{{ page.sample_repo }}">View code</a>
+      {% if page.sample_repo or page.linkedin_url %}
+        <aside class="repo-panel" aria-label="Post links">
+          <span>Links</span>
+          <strong>Keep going</strong>
+          {% if page.sample_repo %}
+            <a href="{{ page.sample_repo }}">View example code</a>
+          {% endif %}
+          {% if page.linkedin_url %}
+            <a href="{{ page.linkedin_url }}">Read on LinkedIn</a>
+          {% endif %}
         </aside>
       {% endif %}
     </div>

@@ -63,5 +63,24 @@ Create a small repo under `A2Techify-LLC` when a runnable example is useful. Kee
 
 Commit and push the blog repo.
 
-If the post creates or references A2Techify infrastructure, update the A2Techify Labs dashboard only when the operational state changes.
+Generate LinkedIn drafts after posts change:
 
+```bash
+node tools/create-linkedin-drafts.mjs
+```
+
+The generator writes each draft to:
+
+```text
+linkedin-drafts/YYYY-MM-DD-post-slug.md
+```
+
+Use that draft as the starting point for the A2Techify LinkedIn newsletter edition. Publish manually from the A2Techify LinkedIn Page, then add the published URL to the source post front matter:
+
+```yaml
+linkedin_url: "https://www.linkedin.com/pulse/..."
+```
+
+Keep the blog post as the canonical source and use LinkedIn as the shorter newsletter edition.
+
+If the post creates or references A2Techify infrastructure, update the A2Techify Labs dashboard only when the operational state changes.
