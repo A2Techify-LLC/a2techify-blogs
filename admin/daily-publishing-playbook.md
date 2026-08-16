@@ -8,7 +8,8 @@ Pick one technology item that is genuinely useful to builders. Prefer:
 
 - Official release posts, model cards, documentation, standards, or primary repositories.
 - Open-source, local-first, or free-tier-safe tools when they are credible.
-- Topics with a runnable sample repo: AI models, LoRA/QLoRA, quantization, agents, RAG, browsers, databases, devtools, observability, security, or infrastructure.
+- Topics where the useful lesson is clear without forcing a new repo.
+- Topics where a runnable sample would teach something the post cannot show in a short snippet.
 
 Avoid pure rumor, SEO summaries, pricing pages without technical substance, and tools that require paid services for the sample.
 
@@ -20,7 +21,7 @@ Use web search and fetch primary sources. Capture:
 - Who released it.
 - What problem it solves.
 - What hardware, cost, or operational limits matter.
-- What a developer can build in one small repo.
+- Whether the topic needs a runnable repo, a short code snippet, a diagram, or just a clear explanation.
 
 ## Blog Format
 
@@ -35,7 +36,8 @@ title: "Clear Practical Title"
 date: YYYY-MM-DD 07:30:00 -0500
 categories: [ai, engineering]
 tags: [tag-one, tag-two]
-sample_repo: "https://github.com/A2Techify-LLC/example-repo"
+# Optional. Add only when the post actually has useful runnable example code.
+# sample_repo: "https://github.com/A2Techify-LLC/example-repo"
 ---
 ```
 
@@ -45,14 +47,30 @@ Post structure:
 - Why it matters
 - How the technology works
 - Practical example
-- Sample repo
+- Example code, diagram, or workflow when useful
 - Cost and operational notes
 - What to watch next
 - References
 
-## Sample Repo
+## Example Code
 
-Create a small repo under `A2Techify-LLC` when a runnable example is useful. Keep it:
+Do not create a new repo by default. Create or reuse a repo only when it materially helps the reader understand, test, or reuse the idea.
+
+Create a small repo under `A2Techify-LLC` when:
+
+- The post needs multiple files, tests, fixtures, or a runnable CLI/API to make the idea concrete.
+- The reader benefits from cloning and running something locally.
+- The repo will stay useful beyond that one article.
+- An existing A2Techify repo cannot cover the example cleanly.
+
+Skip the repo when:
+
+- A short code snippet or command block explains the idea well enough.
+- The post is mostly analysis of a release, standard, pricing, operations risk, or architecture pattern.
+- The example would be filler, a thin wrapper around docs, or another repo that needs maintenance without adding much value.
+- The topic depends on paid services, private credentials, or account-specific setup.
+
+If you do create or update a repo, keep it:
 
 - Public unless it contains private infrastructure or secrets.
 - Free to run locally.

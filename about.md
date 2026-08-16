@@ -13,6 +13,6 @@ Each post aims to answer five questions:
 - Why is it happening now?
 - What can a team do with it?
 - What are the cost, security, and operational trade-offs?
-- Where is a working sample repo?
+- What is the clearest next step: a command, a snippet, a workflow, or example code?
 
 The goal is simple: skip the hype, keep the useful parts, and leave readers with a clear next step.
