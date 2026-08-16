@@ -2,14 +2,15 @@
 layout: page
 title: Topics
 permalink: /tags/
-description: "Browse A2Techify Blogs by AI, developer tools, security, robotics, local agents, and operations topics."
+description: "Browse A2Techify Field Notes by AI, developer tools, security, robotics, local agents, and operations topics."
 ---
 
-<p>Browse notes by topic.</p>
+<p>Follow a thread across our field notes. Counts reflect the articles published so far.</p>
 
 <nav class="tag-list" aria-label="All topics">
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
-    <a href="{{ '/tags/' | append: tag[0] | slugify | append: '/' | relative_url }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+    {% assign tag_slug = tag[0] | slugify %}
+    <a href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}"><span>{{ tag[0] }}</span><small>{{ tag[1].size }} {% if tag[1].size == 1 %}article{% else %}articles{% endif %}</small></a>
   {% endfor %}
 </nav>

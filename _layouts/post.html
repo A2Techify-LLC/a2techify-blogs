@@ -2,49 +2,61 @@
 layout: default
 ---
 
+{% assign words = content | number_of_words %}
+{% assign reading_minutes = words | divided_by: 220 %}
+{% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
+
 <article class="post-shell">
   <header class="post-hero">
     <div class="wrap post-hero-grid">
-      <div>
+      <div class="post-hero-copy">
+        <a class="back-link" href="{{ '/' | relative_url }}">← All field notes</a>
         <div class="post-meta-line">
           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-          {% if page.categories.first %}
-            <span>{{ page.categories | join: " / " }}</span>
-          {% endif %}
+          <span>{{ reading_minutes }} min read</span>
+          {% if page.categories.first %}<span>{{ page.categories | join: " / " }}</span>{% endif %}
         </div>
         <h1>{{ page.title }}</h1>
+        {% if page.description %}<p class="post-deck">{{ page.description }}</p>{% endif %}
         {% if page.tags %}
-          <div class="tag-row" aria-label="Topics">
+          <nav class="tag-row" aria-label="Article topics">
             {% for tag in page.tags %}
-              <a href="{{ '/tags/' | append: tag | slugify | append: '/' | relative_url }}">{{ tag }}</a>
+              {% assign tag_slug = tag | slugify %}
+              <a href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">{{ tag }}</a>
             {% endfor %}
-          </div>
+          </nav>
         {% endif %}
       </div>
 
-      {% if page.sample_repo or page.linkedin_url %}
-        <aside class="repo-panel" aria-label="Post links">
-          <span>Links</span>
-          <strong>Keep going</strong>
-          {% if page.sample_repo %}
-            <a href="{{ page.sample_repo }}">View example code</a>
-          {% endif %}
-          {% if page.linkedin_url %}
-            <a href="{{ page.linkedin_url }}">Read on LinkedIn</a>
-          {% endif %}
-        </aside>
+      {% if page.image %}
+        <figure class="post-hero-image"><img src="{{ page.image | relative_url }}" alt="" width="1200" height="630"></figure>
       {% endif %}
     </div>
   </header>
 
   <section class="content-section">
     <div class="wrap article-grid">
-      <div class="article-rail" aria-hidden="true">
-        <span>note</span>
-      </div>
-      <div class="prose">
-        {{ content }}
-      </div>
+      <aside class="article-sidebar" aria-label="Article resources">
+        <span class="sidebar-label">In this note</span>
+        <p>{{ reading_minutes }} minute read</p>
+        {% if page.sample_repo or page.linkedin_url %}
+          <div class="resource-links">
+            {% if page.sample_repo %}<a href="{{ page.sample_repo }}">Example repository <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if page.linkedin_url %}<a href="{{ page.linkedin_url }}">LinkedIn edition <span aria-hidden="true">↗</span></a>{% endif %}
+          </div>
+        {% endif %}
+      </aside>
+      <div class="prose">{{ content }}</div>
     </div>
   </section>
+
+  <footer class="post-footer">
+    <div class="wrap">
+      <div class="post-footer-heading"><span class="eyebrow">Keep reading</span><h2>More from the engineering bench</h2></div>
+      <nav class="post-pagination" aria-label="More articles">
+        {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><small>Previous</small><strong>{{ page.previous.title }}</strong></a>{% endif %}
+        {% if page.next %}<a href="{{ page.next.url | relative_url }}"><small>Next</small><strong>{{ page.next.title }}</strong></a>{% endif %}
+      </nav>
+    </div>
+  </footer>
 </article>

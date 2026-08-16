@@ -24,7 +24,7 @@ function parseScalar(value) {
 }
 
 function parseFrontMatter(source) {
-  const match = source.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
   if (!match) {
     return { data: {}, body: source };
   }
@@ -109,21 +109,29 @@ function sectionBodies(body) {
 
 function paragraphs(markdown) {
   return markdown
-    .split(/\n{2,}/)
+    .split(/(?:\r?\n){2,}/)
     .map((part) => part.trim())
     .filter((part) => part && !part.startsWith("#") && !part.startsWith("```") && !part.startsWith("- ["));
 }
 
 function takeaways(body) {
   const preferred = new Set([
-    "What Happened",
-    "Why It Matters",
-    "How The Technology Works",
-    "What To Watch Next"
+    "what happened",
+    "what changed",
+    "why it matters",
+    "why we're paying attention",
+    "how the technology works",
+    "how it works",
+    "what to watch next",
+    "what we'd watch next",
+    "the role of lora",
+    "where lora fits",
+    "the role of quantization",
+    "where quantization fits"
   ]);
 
   return sectionBodies(body)
-    .filter((section) => preferred.has(section.title))
+    .filter((section) => preferred.has(section.title.toLowerCase()))
     .map((section) =>
       paragraphs(section.body).find((paragraph) => {
         const clean = stripMarkdown(paragraph);
@@ -150,7 +158,7 @@ function draftForPost(postPath, config) {
   const lines = [
     `# ${title}`,
     "",
-    "LinkedIn newsletter draft for A2Techify Notes.",
+    "LinkedIn newsletter draft for A2Techify Field Notes.",
     "",
     `Source post: ${url}`,
     "LinkedIn URL: TODO after publishing",
@@ -201,7 +209,10 @@ function postFilesFromArgs() {
   if (args.length > 0) {
     return args
       .map((arg) => path.resolve(root, arg))
-      .filter((filePath) => filePath.includes(`${path.sep}_posts${path.sep}`))
+      .filter((filePath) => {
+        const relative = path.relative(postsDir, filePath);
+        return relative && !relative.startsWith("..") && !path.isAbsolute(relative);
+      })
       .filter((filePath) => fs.existsSync(filePath) && filePath.endsWith(".md"));
   }
 

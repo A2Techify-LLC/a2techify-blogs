@@ -1,24 +1,24 @@
-# MCP Traffic Detection Makes Agent Tooling Safer to Operate
+# What MCP Traffic Detection Can—and Cannot—Protect
 
-LinkedIn newsletter draft for A2Techify Notes.
+LinkedIn newsletter draft for A2Techify Field Notes.
 
 Source post: https://blogs.a2techify.com/2026/08/15/mcp-traffic-security-agent-tools/
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
 
-MCP Traffic Detection Makes Agent Tooling Safer to Operate
+What MCP Traffic Detection Can—and Cannot—Protect
 
 ## Intro
 
-A practical security note on Cloudflare MCP traffic detection and safer operating patterns for agent tools.
+Where Cloudflare's MCP traffic detection helps, where it cannot, and which controls still belong at the server.
 
 ## Takeaways
 
 - Cloudflare announced new Cloudflare One capabilities to identify inspected MCP traffic, show which users and servers are generating it, and control direct connections on managed network...
 - Agent tool use changes the risk profile of normal permissions.
 - MCP messages use JSON-RPC.
-- The next practical step is tool-level risk classification.
+- The next step is tool-level risk classification.
 
 ## Example Code
 

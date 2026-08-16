@@ -2,28 +2,55 @@
 layout: default
 ---
 
+{% assign home_posts = paginator.posts | default: site.posts %}
+{% assign featured = home_posts.first %}
+
 <section class="hero">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow">Daily notes from the lab</span>
-      <h1>Useful tech, tested the way builders actually use it.</h1>
+      <span class="eyebrow">Notes from the engineering bench</span>
+      <h1>Useful technology, tested before we recommend it.</h1>
       <p>{{ site.description }}</p>
       <div class="hero-actions">
-        <a class="button primary" href="#latest">Read latest</a>
-        <a class="button secondary" href="https://github.com/{{ site.github_username }}">View code</a>
+        <a class="button primary" href="#latest">Browse the notes</a>
+        <a class="button secondary" href="{{ '/about/' | relative_url }}">How we evaluate tools</a>
       </div>
     </div>
+
+    {% if featured %}
+      <article class="featured-card">
+        {% if featured.image %}
+          <a class="featured-image" href="{{ featured.url | relative_url }}" tabindex="-1" aria-hidden="true">
+            <img src="{{ featured.image | relative_url }}" alt="" width="1200" height="630">
+          </a>
+        {% endif %}
+        <div class="featured-body">
+          <div class="post-card-meta">
+            <span>Latest</span>
+            <time datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date: "%b %-d, %Y" }}</time>
+          </div>
+          <h2><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h2>
+          <p>{{ featured.description | default: featured.excerpt | strip_html | normalize_whitespace }}</p>
+          <a class="text-link" href="{{ featured.url | relative_url }}">Read the article <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    {% endif %}
   </div>
 </section>
 
-<section class="intro-band">
-  <div class="wrap intro-grid">
-    <div class="intro-copy">{{ content }}</div>
-    <div class="pill-row" aria-label="Coverage areas">
-      <span>Local AI</span>
-      <span>Agents</span>
-      <span>Models</span>
-      <span>Dev Tools</span>
+<section class="approach-band" aria-labelledby="approach-title">
+  <div class="wrap approach-grid">
+    <div>
+      <span class="eyebrow dark">Our approach</span>
+      <h2 id="approach-title">Enough context to make a good engineering decision.</h2>
+    </div>
+    <div class="approach-copy">
+      <div class="intro-copy">{{ content }}</div>
+      <ul class="principles" aria-label="Editorial principles">
+        <li><strong>Run it</strong><span>Start with a small, reproducible test.</span></li>
+        <li><strong>Pressure-test it</strong><span>Look at cost, security, and operational limits.</span></li>
+        <li><strong>Write it down</strong><span>Share the commands, code, and judgment calls.</span></li>
+      </ul>
     </div>
   </div>
 </section>
@@ -31,45 +58,24 @@ layout: default
 <section id="latest" class="posts-section">
   <div class="wrap">
     <div class="section-heading">
-      <span class="eyebrow">Latest notes</span>
-      <h2>What is actually useful right now?</h2>
+      <div>
+        <span class="eyebrow">More field notes</span>
+        <h2>What we have been testing</h2>
+      </div>
+      <a class="text-link muted-link" href="{{ '/tags/' | relative_url }}">Browse all topics <span aria-hidden="true">→</span></a>
     </div>
 
-    {% assign home_posts = paginator.posts | default: site.posts %}
     <div class="post-grid">
-      {% for post in home_posts %}
-        <article class="post-card">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-            {% if post.categories.first %}
-              <span>{{ post.categories.first }}</span>
-            {% endif %}
-          </div>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <p>{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 28 }}</p>
-          <div class="post-card-footer">
-            <a class="read-link" href="{{ post.url | relative_url }}">Read note</a>
-            {% if post.sample_repo %}
-              <a class="repo-link" href="{{ post.sample_repo }}">Example code</a>
-            {% endif %}
-          </div>
-        </article>
+      {% for post in home_posts offset: 1 %}
+        {% include post-card.html post=post %}
       {% endfor %}
     </div>
 
     {% if paginator.total_pages > 1 %}
       <nav class="pagination" aria-label="Post pagination">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | relative_url }}">Newer posts</a>
-        {% else %}
-          <span aria-disabled="true">Newer posts</span>
-        {% endif %}
+        {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>{% else %}<span aria-disabled="true">← Newer</span>{% endif %}
         <strong>Page {{ paginator.page }} of {{ paginator.total_pages }}</strong>
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | relative_url }}">Older posts</a>
-        {% else %}
-          <span aria-disabled="true">Older posts</span>
-        {% endif %}
+        {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">Older →</a>{% else %}<span aria-disabled="true">Older →</span>{% endif %}
       </nav>
     {% endif %}
   </div>

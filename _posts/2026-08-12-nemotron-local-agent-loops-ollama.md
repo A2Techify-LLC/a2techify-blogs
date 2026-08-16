@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Nemotron 3.5 Lightning Makes Local Agent Loops Worth Testing"
+title: "Testing Nemotron 3.5 Lightning in a Local Agent Loop"
 date: 2026-08-12 07:30:00 -0500
 categories: [ai, local-agents]
 tags: [nemotron, ollama, agents, local-ai, tool-calling]
 sample_repo: "https://github.com/A2Techify-LLC/nemotron-local-agent-lab"
-description: "Why NVIDIA Nemotron 3.5 Lightning in Ollama is worth testing for local agent loops and routed worker models."
-image: "/assets/images/posts/nemotron-local-agent-loops-ollama.svg"
-modified: 2026-08-15 20:25:00 -0500
+description: "A small Ollama-based test of NVIDIA Nemotron 3.5 Lightning as a local tool-calling worker."
+image: "/assets/images/posts/nemotron-local-agent-loops-ollama.png"
+modified: 2026-08-16 07:12:00 -0500
 ---
 
 Ollama's NVIDIA Nemotron 3.5 Lightning release is worth reading as an infrastructure signal, not just a model catalog update. Local agents are being optimized for the rhythm of real tool work: gather context, call a tool, inspect the result, retry, and keep moving without sending every step to a hosted API.
@@ -16,7 +16,7 @@ NVIDIA describes Nemotron 3.5 Lightning as a 30-billion-parameter mixture-of-exp
 
 <!--more-->
 
-## What Happened
+## What changed
 
 Ollama published "NVIDIA Nemotron 3.5 Lightning" on August 11, 2026. The post says the model is available through Ollama and can be started with:
 
@@ -28,7 +28,7 @@ NVIDIA's launch post explains the bigger architecture around the release. Nemotr
 
 That routing idea matters because most agent steps are not equal. Searching notes, classifying an alert, extracting fields, or checking a simple calculation should not always require the biggest model available.
 
-## Why It Matters
+## Why we're paying attention
 
 Agent workloads are mostly made of repeated small decisions. A coding assistant might read files, inspect a failing test, edit a small function, rerun the test, and summarize what changed. An operations assistant might search runbooks, classify an alert, check service status, and draft a response.
 
@@ -40,9 +40,9 @@ Those steps have three practical constraints:
 
 A local model is attractive when you care about privacy, offline behavior, or avoiding per-token bills for repeated internal work. It is less attractive when the hardware is undersized or the workflow needs frontier reasoning on every step.
 
-Nemotron 3.5 Lightning sits in the interesting middle: large enough to target agentic, coding, reasoning, tool-use, and long-context tasks, but designed so only 3B parameters are active per token.
+Nemotron 3.5 Lightning sits in a useful middle ground: large enough to target agentic, coding, reasoning, tool-use, and long-context tasks, but designed so only 3B parameters are active per token.
 
-## How The Technology Works
+## How it works
 
 The model card describes a hybrid architecture that combines Mamba-2, mixture-of-experts layers, and selected attention layers. In simple terms, the model has 30B total parameters, but each token activates a smaller path through the model.
 
@@ -58,9 +58,9 @@ The model card also lists:
 
 For ordinary developers, the most practical starting point is Ollama. It hides most serving details and gives you a local HTTP API that a simple agent harness can call.
 
-## Practical Example
+## A small test
 
-Today's companion repo is a small local-first agent loop:
+We built a small local-first agent loop to test the model:
 
 [A2Techify-LLC/nemotron-local-agent-lab](https://github.com/A2Techify-LLC/nemotron-local-agent-lab)
 
@@ -103,7 +103,7 @@ You can also point the same scaffold at a smaller local model:
 OLLAMA_MODEL=qwen3:4b nemotron-agent "Summarize the deployment note"
 ```
 
-## Cost And Operational Notes
+## Before you ship it
 
 Local inference does not mean free inference. You are trading API billing for hardware, power, memory, model storage, and operational care.
 
@@ -119,9 +119,9 @@ The practical rollout path is:
 
 Also treat tool access as production code. Local agents should still use allowlists, typed arguments, dry-run modes, and logs. "Runs on my device" is not a security boundary by itself.
 
-## What To Watch Next
+## What we'd watch next
 
-The bigger trend is model routing for agents. NVIDIA's Switchyard repo describes routing across OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, with metrics for requests, errors, latency, tokens, and routing overhead.
+The longer-term direction is model routing for agents. NVIDIA's Switchyard repo describes routing across OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, with metrics for requests, errors, latency, tokens, and routing overhead.
 
 That is where local agents get more useful: a cheap local worker handles routine steps, a stronger model handles planning or review, and the application records enough telemetry to know when routing decisions are working.
 
@@ -130,7 +130,6 @@ For builders, the next useful experiment is not a huge demo. It is a small tool 
 ## References
 
 - [Ollama: NVIDIA Nemotron 3.5 Lightning](https://ollama.com/blog/nemotron-3-5-lightning)
-- [Ollama model page: nemotron-3.5-lightning](https://ollama.com/library/nemotron3.5-lightning)
 - [NVIDIA Blog: Nemotron 3.5 Lightning and NeMo Switchyard](https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/)
 - [Hugging Face model card: NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4)
 - [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard)

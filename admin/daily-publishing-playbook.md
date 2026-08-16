@@ -1,6 +1,6 @@
-# Daily A2Techify Technology Post Playbook
+# A2Techify Field Notes Publishing Playbook
 
-This is the operating checklist for the daily blog job.
+This is the working checklist for publishing a field note. Use it as a guardrail, not a rigid article template.
 
 ## Selection
 
@@ -41,15 +41,15 @@ tags: [tag-one, tag-two]
 ---
 ```
 
-Post structure:
+Most posts should cover the following ground, but the headings should fit the subject and read naturally:
 
-- What happened
-- Why it matters
-- How the technology works
-- Practical example
+- What changed
+- Why the team is paying attention
+- How it works
+- A small, useful test
 - Example code, diagram, or workflow when useful
-- Cost and operational notes
-- What to watch next
+- Constraints to understand before shipping
+- What the team would watch next
 - References
 
 ## Example Code
@@ -79,7 +79,14 @@ If you do create or update a repo, keep it:
 
 ## Publishing
 
-Commit and push the blog repo.
+Before publishing:
+
+- Add a 1200×630 social image. Prefer PNG for reliable link previews.
+- Check that every tag has a matching `tags/<tag>/index.html` page.
+- Run `node tools/validate-site.mjs` and `bundle exec jekyll build`.
+- Read the introduction and conclusion aloud. Remove generic transitions, repeated claims, and language that sounds like a product announcement.
+
+Commit and push the blog repo after the local checks pass.
 
 Generate LinkedIn drafts after posts change:
 

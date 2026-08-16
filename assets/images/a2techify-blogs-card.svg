@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">A2Techify Blogs social card</title>
-  <desc id="desc">A dark technology blog card with the A2Techify Blogs title.</desc>
+  <title id="title">A2Techify Field Notes social card</title>
+  <desc id="desc">A dark technology field-notes card from A2Techify.</desc>
   <rect width="1200" height="630" fill="#071015"/>
   <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M160 0v630M320 0v630M480 0v630M640 0v630M800 0v630M960 0v630" stroke="#1f333d" stroke-width="2"/>
   <rect x="80" y="90" width="1040" height="450" rx="24" fill="#101a20" stroke="#38505f" stroke-width="2"/>
-  <text x="130" y="210" fill="#59d6df" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">A2Techify Blogs</text>
+  <text x="130" y="210" fill="#59d6df" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">A2Techify Field Notes</text>
   <text x="130" y="310" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Daily Technology Notes</text>
   <text x="130" y="390" fill="#a8b6b7" font-family="Inter, Arial, sans-serif" font-size="34">New tools, clear examples, and notes from real testing.</text>
   <circle cx="1010" cy="170" r="42" fill="#f4c95d"/>

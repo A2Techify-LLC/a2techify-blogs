@@ -1,17 +1,17 @@
-# Agent Plugins 1.0 Makes AI Tooling Portable
+# What Agent Plugins 1.0 Gets Right About Portable Tooling
 
-LinkedIn newsletter draft for A2Techify Notes.
+LinkedIn newsletter draft for A2Techify Field Notes.
 
 Source post: https://blogs.a2techify.com/2026/08/13/agent-plugins-portable-ai-tools/
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
 
-Agent Plugins 1.0 Makes AI Tooling Portable
+What Agent Plugins 1.0 Gets Right About Portable Tooling
 
 ## Intro
 
-How Agent Plugins 1.0 gives teams a portable packaging layer for AI tools, skills, and MCP configuration.
+A closer look at the portable packaging layer for skills, commands, hooks, and MCP configuration.
 
 ## Takeaways
 

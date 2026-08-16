@@ -2,12 +2,12 @@
 layout: page
 title: Terms
 permalink: /terms/
-description: "Read the terms that govern use of A2Techify Blogs, including informational content, example code, external links, and intellectual property."
+description: "Read the terms that govern use of A2Techify Field Notes, including informational content, example code, external links, and intellectual property."
 ---
 
 Effective August 16, 2026
 
-These Terms apply to A2Techify Blogs at `blogs.a2techify.com`.
+These Terms apply to A2Techify Field Notes at `blogs.a2techify.com`.
 
 ## Acceptance
 
@@ -27,11 +27,11 @@ Before using example code in a real system, review it for security, licensing, d
 
 ## Client Services
 
-Reading the blog, using example code, or sending an email does not create a client, confidential, fiduciary, or professional-services relationship with A2 Techify. Any client engagement is governed by a separate written agreement.
+Reading the blog, using example code, or sending an email does not create a client, confidential, fiduciary, or professional-services relationship with A2Techify. Any client engagement is governed by a separate written agreement.
 
 ## Intellectual Property
 
-The blog design, text, branding, images, and other site content are owned by A2 Techify or used with permission and may not be copied or republished without authorization, except for fair use, brief quotations with attribution, or uses allowed by applicable law.
+The blog design, text, branding, images, and other site content are owned by A2Techify or used with permission and may not be copied or republished without authorization, except for fair use, brief quotations with attribution, or uses allowed by applicable law.
 
 Open-source repositories linked from the blog are governed by the licenses included in those repositories.
 
@@ -45,7 +45,7 @@ The blog links to third-party websites, documentation, repositories, products, a
 
 ## Disclaimers And Liability
 
-The blog is provided on an "as available" basis. To the extent permitted by law, A2 Techify disclaims warranties regarding the blog and is not liable for indirect, incidental, special, or consequential losses arising solely from use of, or inability to use, this blog.
+The blog is provided on an "as available" basis. To the extent permitted by law, A2Techify disclaims warranties regarding the blog and is not liable for indirect, incidental, special, or consequential losses arising solely from use of, or inability to use, this blog.
 
 ## Governing Law
 
@@ -53,7 +53,7 @@ These Terms are governed by the laws of the State of Texas, without regard to co
 
 ## Main Site Terms
 
-The main A2 Techify website has its own terms at [www.a2techify.com/terms](https://www.a2techify.com/terms).
+The main A2Techify website has its own terms at [www.a2techify.com/terms](https://www.a2techify.com/terms).
 
 ## Changes And Contact
 

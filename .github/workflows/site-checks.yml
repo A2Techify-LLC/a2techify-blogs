@@ -1,0 +1,28 @@
+name: Site checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+      - name: Install Ruby dependencies
+        run: bundle install
+      - name: Check generated drafts
+        run: |
+          node tools/create-linkedin-drafts.mjs
+          git diff --exit-code -- linkedin-drafts
+      - name: Validate content
+        run: node tools/validate-site.mjs
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --trace

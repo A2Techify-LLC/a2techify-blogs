@@ -1,12 +1,12 @@
-title: "A2Techify Blogs"
+title: "A2Techify Field Notes"
 email: "contact@a2techify.com"
-description: "Short field notes on useful AI, software, and operations tools: what changed, how to try them, and what to watch before shipping."
+description: "Field notes from the A2Techify engineering team on AI, developer tools, and the systems around them."
 baseurl: ""
 url: "https://blogs.a2techify.com"
 github_username: "A2Techify-LLC"
 author: "A2Techify Editorial"
 logo: "/assets/images/a2techify-logo.png"
-image: "/assets/images/a2techify-blogs-card.svg"
+image: "/assets/images/a2techify-blogs-card.png"
 twitter:
   card: "summary_large_image"
 
@@ -16,6 +16,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 show_excerpts: true
 excerpt_separator: "<!--more-->"

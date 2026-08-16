@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Agent Plugins 1.0 Makes AI Tooling Portable"
+title: "What Agent Plugins 1.0 Gets Right About Portable Tooling"
 date: 2026-08-13 07:30:00 -0500
 categories: [ai, devtools]
 tags: [agent-plugins, copilot, vscode, mcp, skills, devtools]
 sample_repo: "https://github.com/A2Techify-LLC/agent-plugin-portable-starter"
-description: "How Agent Plugins 1.0 gives teams a portable packaging layer for AI tools, skills, and MCP configuration."
-image: "/assets/images/posts/agent-plugins-portable-ai-tools.svg"
-modified: 2026-08-15 20:25:00 -0500
+description: "A closer look at the portable packaging layer for skills, commands, hooks, and MCP configuration."
+image: "/assets/images/posts/agent-plugins-portable-ai-tools.png"
+modified: 2026-08-16 07:12:00 -0500
 ---
 
 GitHub's Agent Plugins 1.0 release gives AI tooling a packaging layer that feels closer to normal software distribution. It is now generally available in VS Code, Copilot CLI, the GitHub Copilot SDK, and the Copilot app, which means plugin authors can ship one portable core instead of maintaining separate layouts for every client.
@@ -16,7 +16,7 @@ The standard is small on purpose: a root `plugin.json`, Agent Skills under `skil
 
 <!--more-->
 
-## What Happened
+## What changed
 
 GitHub's August 12 changelog says Agent Plugins 1.0 support is generally available in VS Code, Copilot CLI, the GitHub Copilot SDK, and the GitHub Copilot app across Copilot plans. The same post says Agent Plugins 1.0 was published on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel, and that Google joined as a core maintainer the same day.
 
@@ -24,7 +24,7 @@ The open specification defines a self-contained plugin directory. Every plugin h
 
 For teams that already build internal agent tooling, this is the difference between "we wrote a useful skill" and "we wrote a useful skill that only works in one client because the packaging is different everywhere."
 
-## Why It Matters
+## Why we're paying attention
 
 Agent tooling is starting to look like normal software infrastructure. Teams want reusable runbooks, repo inspection workflows, deployment helpers, security review steps, database tools, incident triage tools, and documentation search. Those capabilities should not be trapped inside one assistant's private format.
 
@@ -36,7 +36,7 @@ Portability matters for three practical reasons:
 
 That last point is important. Agent Plugins 1.0 does not pretend every client has the same feature set. Hooks, commands, UI, and marketplace behavior may still be client-specific. The standard gives the shared pieces a stable place and gives the non-shared pieces a boundary.
 
-## How The Technology Works
+## How it works
 
 The minimum package is just:
 
@@ -63,9 +63,9 @@ Skills live under immediate child directories of `skills/`. A client does not re
 
 MCP servers, when present, live in root `mcp.json`. The MCP documentation says the top-level fields are `$schema` and `mcpServers`, with server entries declaring transports such as `stdio`, `streamable-http`, or legacy `sse`. Remote MCP headers are visible package data and must not contain credentials or secrets.
 
-## Practical Example
+## A small test
 
-Today's companion repo is a small, public starter:
+We put together a small public starter to see how much of the format is genuinely portable:
 
 [A2Techify-LLC/agent-plugin-portable-starter](https://github.com/A2Techify-LLC/agent-plugin-portable-starter)
 
@@ -95,7 +95,7 @@ plugin validation passed
 
 The validator checks the starter's portable structure and catches common mistakes, such as unsupported manifest fields, a missing schema, or a skill directory without `SKILL.md`. It is intentionally not a full Agent Plugins client.
 
-## Sample Repo
+## What the repo covers
 
 The sample repo is designed to be copied:
 
@@ -108,7 +108,7 @@ The sample repo is designed to be copied:
 
 The repo avoids paid APIs, hosted model calls, secrets, and account-specific infrastructure. It is just files plus a standard-library smoke test.
 
-## Cost And Operational Notes
+## Before you ship it
 
 Agent Plugins 1.0 is a packaging standard, not a billing model. The starter repo costs nothing to run locally. Real plugins can still introduce operational costs depending on what they connect to.
 
@@ -122,7 +122,7 @@ For internal teams, the guardrails are straightforward:
 
 The biggest operational mistake is assuming portability means identical behavior everywhere. The portable core should load consistently, but client-specific features still need client-specific testing.
 
-## What To Watch Next
+## What we'd watch next
 
 The next useful step is better validation and release tooling. Teams will want CI checks that validate `plugin.json`, `mcp.json`, skill front matter, path containment, examples, and client extension packages before publishing.
 

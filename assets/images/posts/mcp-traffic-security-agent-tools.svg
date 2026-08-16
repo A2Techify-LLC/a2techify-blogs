@@ -3,7 +3,7 @@
   <desc id="desc">A branded A2Techify social card for an MCP security article.</desc>
   <rect width="1200" height="630" fill="#10120f"/>
   <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ff7a66" stroke-opacity=".4" stroke-width="2"/>
-  <text x="104" y="145" fill="#ff7a66" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">A2Techify Blogs</text>
+  <text x="104" y="145" fill="#ff7a66" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
   <text x="104" y="258" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">MCP Traffic</text>
   <text x="104" y="332" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Detection Matters</text>
   <text x="104" y="430" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Protocol visibility for safer agent tool operations.</text>

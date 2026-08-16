@@ -2,16 +2,16 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy/
-description: "Read how A2Techify Blogs handles privacy, analytics, RSS, hosting logs, and links to third-party sites."
+description: "Read how A2Techify Field Notes handles privacy, analytics, RSS, hosting logs, and links to third-party sites."
 ---
 
 Effective August 16, 2026
 
-This Privacy Policy applies to A2Techify Blogs at `blogs.a2techify.com`.
+This Privacy Policy applies to A2Techify Field Notes at `blogs.a2techify.com`.
 
 ## Information We Collect
 
-A2Techify Blogs is a static publication site. It does not include a contact form, account system, comment system, or checkout flow.
+A2Techify Field Notes is a static publication site. It does not include a contact form, account system, comment system, or checkout flow.
 
 When you visit the blog, hosting and infrastructure providers may process limited technical information needed to serve and protect the site, such as IP address, browser information, request timestamps, requested URLs, and abuse-risk signals.
 
@@ -29,7 +29,7 @@ We use information only as needed to:
 
 ## Service Providers
 
-The blog is published with GitHub Pages. GitHub may process technical information as part of hosting, security, logging, and abuse prevention. If you follow links to GitHub, LinkedIn, RSS readers, sample repositories, or other third-party sites, those services handle information under their own terms and privacy policies.
+The blog is published with GitHub Pages. GitHub may process technical information as part of hosting, security, logging, and abuse prevention. We also load typefaces from Google Fonts, which means a visitor's browser makes a request to Google's font servers. If you follow links to GitHub, LinkedIn, RSS readers, sample repositories, or other third-party sites, those services handle information under their own terms and privacy policies.
 
 We do not sell personal information.
 
@@ -53,7 +53,7 @@ This business-to-business blog is not directed to children under 13, and we do n
 
 ## Main Site Policy
 
-The main A2 Techify website has its own Privacy Policy at [www.a2techify.com/privacy](https://www.a2techify.com/privacy).
+The main A2Techify website has its own Privacy Policy at [www.a2techify.com/privacy](https://www.a2techify.com/privacy).
 
 ## Contact
 

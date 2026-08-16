@@ -1,24 +1,24 @@
-# Nemotron 3.5 Lightning Makes Local Agent Loops Worth Testing
+# Testing Nemotron 3.5 Lightning in a Local Agent Loop
 
-LinkedIn newsletter draft for A2Techify Notes.
+LinkedIn newsletter draft for A2Techify Field Notes.
 
 Source post: https://blogs.a2techify.com/2026/08/12/nemotron-local-agent-loops-ollama/
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
 
-Nemotron 3.5 Lightning Makes Local Agent Loops Worth Testing
+Testing Nemotron 3.5 Lightning in a Local Agent Loop
 
 ## Intro
 
-Why NVIDIA Nemotron 3.5 Lightning in Ollama is worth testing for local agent loops and routed worker models.
+A small Ollama-based test of NVIDIA Nemotron 3.5 Lightning as a local tool-calling worker.
 
 ## Takeaways
 
 - Ollama published "NVIDIA Nemotron 3.5 Lightning" on August 11, 2026. The post says the model is available through Ollama and can be started with:
 - Agent workloads are mostly made of repeated small decisions.
 - The model card describes a hybrid architecture that combines Mamba-2, mixture-of-experts layers, and selected attention layers.
-- The bigger trend is model routing for agents.
+- The longer-term direction is model routing for agents.
 
 ## Example Code
 

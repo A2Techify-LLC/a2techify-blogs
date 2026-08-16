@@ -21,17 +21,17 @@
           <span class="brand-mark" aria-hidden="true">
             <img src="{{ site.logo | relative_url }}" alt="" width="44" height="44">
           </span>
-          <span>
+          <span class="brand-copy">
             <strong>A2Techify</strong>
-            <small>Tech Notes</small>
+            <small>Field Notes</small>
           </span>
         </a>
 
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="{{ '/' | relative_url }}">Notes</a>
-          <a href="{{ '/tags/' | relative_url }}">Topics</a>
-          <a href="{{ '/about/' | relative_url }}">About</a>
-          <a href="https://github.com/{{ site.github_username }}" rel="me">Code</a>
+          <a{% if page.url == '/' %} aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Articles</a>
+          <a{% if page.url contains '/tags/' %} aria-current="page"{% endif %} href="{{ '/tags/' | relative_url }}">Topics</a>
+          <a{% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about/' | relative_url }}">About</a>
+          <a class="nav-external" href="https://github.com/{{ site.github_username }}" rel="me">GitHub <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
@@ -43,11 +43,11 @@
     <footer class="site-footer">
       <div class="wrap footer-grid">
         <div>
-          <div class="footer-kicker">A2Techify Notes</div>
-          <p>Practical technology notes from A2 Techify, the software and AI engineering team behind www.a2techify.com.</p>
+          <div class="footer-kicker">A2Techify Field Notes</div>
+          <p>Practical engineering notes from the team at A2Techify.</p>
         </div>
         <div class="footer-links">
-          <a href="https://www.a2techify.com">www.a2techify.com</a>
+          <a href="https://www.a2techify.com">A2Techify.com</a>
           <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
           <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
           <a href="{{ '/terms/' | relative_url }}">Terms</a>
