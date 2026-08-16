@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://blogs.a2techify.com"
 github_username: "A2Techify-LLC"
 author: "A2Techify Editorial"
-logo: "/assets/images/a2techify-blogs-logo.svg"
+logo: "/assets/images/a2techify-logo.png"
 image: "/assets/images/a2techify-blogs-card.svg"
 twitter:
   card: "summary_large_image"

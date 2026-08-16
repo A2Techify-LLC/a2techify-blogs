@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include seo-head.html %}
     {% feed_meta %}
+    <link rel="icon" href="{{ site.logo | relative_url }}" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="{{ site.logo | relative_url }}" sizes="192x192">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -16,7 +18,9 @@
     <header class="site-header">
       <div class="wrap nav-wrap">
         <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-          <span class="brand-mark">A2</span>
+          <span class="brand-mark" aria-hidden="true">
+            <img src="{{ site.logo | relative_url }}" alt="" width="44" height="44">
+          </span>
           <span>
             <strong>A2Techify</strong>
             <small>Tech Notes</small>
@@ -39,11 +43,11 @@
     <footer class="site-footer">
       <div class="wrap footer-grid">
         <div>
-          <div class="footer-kicker">A2Techify Blogs</div>
-          <p>Clear notes on new technology, written for teams building real software.</p>
+          <div class="footer-kicker">A2Techify Notes</div>
+          <p>Practical technology notes from A2 Techify, the software and AI engineering team behind www.a2techify.com.</p>
         </div>
         <div class="footer-links">
-          <a href="https://a2techify.com">Website</a>
+          <a href="https://www.a2techify.com">www.a2techify.com</a>
           <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           <a href="https://github.com/{{ site.github_username }}">Code</a>
