@@ -10,7 +10,7 @@ layout: default
       <p>{{ site.description }}</p>
       <div class="hero-actions">
         <a class="button primary" href="#latest">Read latest</a>
-        <a class="button secondary" href="https://github.com/{{ site.github_username }}">View labs</a>
+        <a class="button secondary" href="https://github.com/{{ site.github_username }}">View code</a>
       </div>
     </div>
   </div>
@@ -21,9 +21,9 @@ layout: default
     <div class="intro-copy">{{ content }}</div>
     <div class="pill-row" aria-label="Coverage areas">
       <span>Local AI</span>
-      <span>Agent Systems</span>
-      <span>Model Ops</span>
-      <span>Developer Tools</span>
+      <span>Agents</span>
+      <span>Models</span>
+      <span>Dev Tools</span>
     </div>
   </div>
 </section>
@@ -48,9 +48,9 @@ layout: default
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <p>{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 28 }}</p>
           <div class="post-card-footer">
-            <a class="read-link" href="{{ post.url | relative_url }}">Read brief</a>
+            <a class="read-link" href="{{ post.url | relative_url }}">Read note</a>
             {% if post.sample_repo %}
-              <a class="repo-link" href="{{ post.sample_repo }}">Sample repo</a>
+              <a class="repo-link" href="{{ post.sample_repo }}">Example code</a>
             {% endif %}
           </div>
         </article>
