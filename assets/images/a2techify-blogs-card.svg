@@ -6,8 +6,7 @@
   <rect x="80" y="90" width="1040" height="450" rx="24" fill="#101a20" stroke="#38505f" stroke-width="2"/>
   <text x="130" y="210" fill="#59d6df" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">A2Techify Blogs</text>
   <text x="130" y="310" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Daily Technology Notes</text>
-  <text x="130" y="390" fill="#a8b6b7" font-family="Inter, Arial, sans-serif" font-size="34">New tools, practical examples, and cost-aware engineering judgment.</text>
+  <text x="130" y="390" fill="#a8b6b7" font-family="Inter, Arial, sans-serif" font-size="34">New tools, clear examples, and notes from real testing.</text>
   <circle cx="1010" cy="170" r="42" fill="#f4c95d"/>
   <path d="M920 455 974 320h30l54 135h-33l-10-28h-54l-10 28h-31Zm50-54h35l-17-48-18 48Z" fill="#5ed48a"/>
 </svg>
-
