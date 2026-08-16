@@ -1,0 +1,15 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+description: "Browse A2Techify Blogs by AI, developer tools, security, robotics, local agents, and operations topics."
+---
+
+<p>Browse practical technology briefs by topic.</p>
+
+<nav class="tag-list" aria-label="All tags">
+  {% assign tags = site.tags | sort %}
+  {% for tag in tags %}
+    <a href="{{ '/tags/' | append: tag[0] | slugify | append: '/' | relative_url }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+  {% endfor %}
+</nav>

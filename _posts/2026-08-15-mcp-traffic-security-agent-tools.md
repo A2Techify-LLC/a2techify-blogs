@@ -5,9 +5,12 @@ date: 2026-08-15 07:30:00 -0500
 categories: [ai, security]
 tags: [mcp, agents, cloudflare, security, devtools]
 sample_repo: "https://github.com/A2Techify-LLC/mcp-traffic-guard-lab"
+description: "A practical security note on Cloudflare MCP traffic detection and safer operating patterns for agent tools."
+image: "/assets/images/posts/mcp-traffic-security-agent-tools.svg"
+modified: 2026-08-15 20:25:00 -0500
 ---
 
-Cloudflare published a practical August 14 update on detecting and securing Model Context Protocol traffic. The useful shift is simple: security teams should not rely only on MCP-looking URLs such as `/mcp` or `/sse`. Modern MCP-over-HTTP traffic carries protocol signals that gateways, proxies, and server middleware can use to identify agent tool calls more reliably.
+Cloudflare's August 14 MCP security update is a reminder that agent tools need network-level visibility once they touch real systems. URL patterns such as `/mcp` or `/sse` are too weak on their own; modern MCP-over-HTTP traffic carries protocol signals that gateways, proxies, and server middleware can use to identify agent tool calls more reliably.
 
 That matters because MCP makes it easy for agents to call SaaS tools, internal APIs, databases, and operational systems through a common protocol. A tool call can read sensitive data or trigger a write action at machine speed. Once agents have real permissions, visibility and approved-path controls become part of the engineering work, not just a corporate security add-on.
 

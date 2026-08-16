@@ -35,8 +35,9 @@ layout: default
       <h2>What is worth a builder's time?</h2>
     </div>
 
+    {% assign home_posts = paginator.posts | default: site.posts %}
     <div class="post-grid">
-      {% for post in site.posts %}
+      {% for post in home_posts %}
         <article class="post-card">
           <div class="post-card-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
@@ -45,7 +46,7 @@ layout: default
             {% endif %}
           </div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 170 }}</p>
+          <p>{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 28 }}</p>
           <div class="post-card-footer">
             <a class="read-link" href="{{ post.url | relative_url }}">Read brief</a>
             {% if post.sample_repo %}
@@ -55,5 +56,21 @@ layout: default
         </article>
       {% endfor %}
     </div>
+
+    {% if paginator.total_pages > 1 %}
+      <nav class="pagination" aria-label="Post pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | relative_url }}">Newer posts</a>
+        {% else %}
+          <span aria-disabled="true">Newer posts</span>
+        {% endif %}
+        <strong>Page {{ paginator.page }} of {{ paginator.total_pages }}</strong>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | relative_url }}">Older posts</a>
+        {% else %}
+          <span aria-disabled="true">Older posts</span>
+        {% endif %}
+      </nav>
+    {% endif %}
   </div>
 </section>

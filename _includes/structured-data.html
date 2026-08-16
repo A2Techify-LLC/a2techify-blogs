@@ -1,0 +1,69 @@
+{% assign page_description = include.page_description | default: site.description %}
+{% assign image_url = include.image_url | default: site.image | absolute_url %}
+{% assign canonical_url = include.canonical_url | default: page.url | absolute_url %}
+{% assign modified_time = include.modified_time | default: page.date %}
+{% if page.layout == "post" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page_description | jsonify }},
+  "image": [{{ image_url | jsonify }}],
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ modified_time | date_to_xmlschema | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": {{ site.author | jsonify }},
+    "url": {{ site.url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": {{ site.url | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site.logo | absolute_url | jsonify }}
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ canonical_url | jsonify }}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "A2Techify Blogs",
+      "item": {{ "/" | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ page.title | jsonify }},
+      "item": {{ canonical_url | jsonify }}
+    }
+  ]
+}
+</script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "A2Techify",
+  "url": "https://a2techify.com",
+  "email": {{ site.email | jsonify }},
+  "logo": {{ site.logo | absolute_url | jsonify }},
+  "sameAs": [
+    {{ "https://github.com/" | append: site.github_username | jsonify }}
+  ]
+}
+</script>
+{% endif %}

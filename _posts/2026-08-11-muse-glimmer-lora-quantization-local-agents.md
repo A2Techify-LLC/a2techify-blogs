@@ -5,6 +5,9 @@ date: 2026-08-11 07:30:00 -0500
 categories: [ai, local-agents]
 tags: [muse-glimmer, lora, qlora, quantization, local-ai, agents]
 sample_repo: "https://github.com/A2Techify-LLC/lora-quantization-realtime-lab"
+description: "A practical look at Muse Glimmer, LoRA, QLoRA, and quantization as a local agent engineering stack."
+image: "/assets/images/posts/muse-glimmer-lora-quantization-local-agents.svg"
+modified: 2026-08-15 20:25:00 -0500
 ---
 
 Meta introduced Muse Glimmer, a 30-billion-parameter open agentic model designed for always-on local workflows. That release is interesting by itself, but the larger story is more useful: local agents are becoming an engineering stack, not just a model download.
@@ -177,4 +180,3 @@ Local agents will not replace hosted models everywhere. They will take over the 
 - [A2Techify sample repo: LoRA Quantization Realtime Lab](https://github.com/A2Techify-LLC/lora-quantization-realtime-lab)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [PEFT: Parameter-Efficient Fine-Tuning](https://github.com/huggingface/peft)
-

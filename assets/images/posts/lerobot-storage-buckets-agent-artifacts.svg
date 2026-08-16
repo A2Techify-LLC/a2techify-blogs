@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">LeRobot Storage Buckets Agent Artifacts</title>
+  <desc id="desc">A branded A2Techify social card for a robotics workflow article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#d5ff61" stroke-opacity=".38" stroke-width="2"/>
+  <text x="104" y="145" fill="#d5ff61" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">A2Techify Blogs</text>
+  <text x="104" y="258" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">LeRobot Buckets</text>
+  <text x="104" y="332" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">for Agent Artifacts</text>
+  <text x="104" y="430" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">A mutable workbench for robot learning runs.</text>
+  <circle cx="1016" cy="162" r="48" fill="#ff7a66"/>
+  <path d="M889 318h140v48H889v-48Zm16-58h108l16 42H889l16-42Zm-16 122h140v48H889v-48Z" fill="#80e9ff"/>
+</svg>

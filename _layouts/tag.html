@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+{% assign tag_name = page.tag %}
+<p>Posts tagged <strong>{{ tag_name }}</strong>.</p>
+
+<div class="post-grid">
+  {% assign matched = site.posts | where_exp: "post", "post.tags contains tag_name" %}
+  {% for post in matched %}
+    <article class="post-card">
+      <div class="post-card-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        {% if post.categories.first %}
+          <span>{{ post.categories.first }}</span>
+        {% endif %}
+      </div>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 28 }}</p>
+      <div class="post-card-footer">
+        <a class="read-link" href="{{ post.url | relative_url }}">Read brief</a>
+        {% if post.sample_repo %}
+          <a class="repo-link" href="{{ post.sample_repo }}">Sample repo</a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

@@ -16,7 +16,7 @@ layout: default
         {% if page.tags %}
           <div class="tag-row" aria-label="Tags">
             {% for tag in page.tags %}
-              <span>{{ tag }}</span>
+              <a href="{{ '/tags/' | append: tag | slugify | append: '/' | relative_url }}">{{ tag }}</a>
             {% endfor %}
           </div>
         {% endif %}

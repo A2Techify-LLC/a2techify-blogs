@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: "Learn how A2Techify Blogs turns new AI, software, and operations releases into practical engineering notes and runnable examples."
 ---
 
 A2Techify Blogs publishes practical notes on the most useful new technology for software teams, AI builders, and operators.
@@ -15,4 +16,3 @@ Each post aims to answer five questions:
 - Where is a working sample repo?
 
 The goal is not hype tracking. The goal is to turn new technology into useful engineering judgment and small runnable examples.
-

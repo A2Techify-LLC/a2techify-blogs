@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Nemotron 3.5 Lightning Local Agent Loops</title>
+  <desc id="desc">A branded A2Techify social card for a local agent loops article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#80e9ff" stroke-opacity=".35" stroke-width="2"/>
+  <text x="104" y="145" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">A2Techify Blogs</text>
+  <text x="104" y="258" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Nemotron 3.5</text>
+  <text x="104" y="332" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Lightning in Ollama</text>
+  <text x="104" y="430" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">A practical signal for long-running local tool loops.</text>
+  <circle cx="1016" cy="162" r="48" fill="#8cffc1"/>
+  <path d="M878 452h156v-34H931v-36h84v-34h-84v-35h103v-34H878v173Z" fill="#ffca5f"/>
+</svg>

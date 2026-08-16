@@ -265,7 +265,8 @@ a:hover {
 }
 
 .pill-row span,
-.tag-row span {
+.tag-row a,
+.tag-list a {
   border: 1px solid currentColor;
   border-radius: 999px;
   padding: 7px 11px;
@@ -361,6 +362,39 @@ a:hover {
   color: var(--amber);
 }
 
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.pagination a,
+.pagination span,
+.pagination strong {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(247, 248, 245, 0.16);
+  border-radius: var(--radius);
+  padding: 0 14px;
+}
+
+.pagination a {
+  color: var(--mint);
+}
+
+.pagination span {
+  color: var(--dim);
+}
+
 .page-hero,
 .post-hero {
   padding: 86px 0 70px;
@@ -387,8 +421,25 @@ a:hover {
   margin-top: 24px;
 }
 
-.tag-row span {
+.tag-row a {
   color: var(--lime);
+}
+
+.tag-row a:hover,
+.tag-list a:hover {
+  background: var(--lime);
+  color: #07120c;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0 0;
+}
+
+.tag-list a {
+  color: var(--mint);
 }
 
 .repo-panel {
@@ -667,7 +718,7 @@ a:hover {
     font-size: 11px;
   }
 
-  .tag-row span,
+  .tag-row a,
   .pill-row span {
     padding: 6px 9px;
     font-size: 11px;

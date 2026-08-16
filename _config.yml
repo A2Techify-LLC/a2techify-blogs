@@ -1,21 +1,26 @@
 title: "A2Techify Blogs"
-email: "a2techify@gmail.com"
+email: "contact@a2techify.com"
 description: "Daily practical notes on the most useful new technology for builders, operators, and AI teams."
-baseurl: "/a2techify-blogs"
-url: "https://a2techify-llc.github.io"
+baseurl: ""
+url: "https://blog.a2techify.com"
 github_username: "A2Techify-LLC"
-author: "A2Techify"
+author: "A2Techify Editorial"
 logo: "/assets/images/a2techify-blogs-logo.svg"
 image: "/assets/images/a2techify-blogs-card.svg"
+twitter:
+  card: "summary_large_image"
 
 theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
 
 show_excerpts: true
 excerpt_separator: "<!--more-->"
+paginate: 10
+paginate_path: "/page/:num/"
 
 minima:
   date_format: "%b %-d, %Y"
@@ -23,4 +28,3 @@ minima:
 
 header_pages:
   - about.md
-

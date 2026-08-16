@@ -5,9 +5,12 @@ date: 2026-08-12 07:30:00 -0500
 categories: [ai, local-agents]
 tags: [nemotron, ollama, agents, local-ai, tool-calling]
 sample_repo: "https://github.com/A2Techify-LLC/nemotron-local-agent-lab"
+description: "Why NVIDIA Nemotron 3.5 Lightning in Ollama is worth testing for local agent loops and routed worker models."
+image: "/assets/images/posts/nemotron-local-agent-loops-ollama.svg"
+modified: 2026-08-15 20:25:00 -0500
 ---
 
-Ollama added NVIDIA Nemotron 3.5 Lightning this week, and the useful part is not just another model name in the catalog. It is a clear signal that local agents are being optimized for long-running tool work: gather context, call a tool, inspect the result, retry, and keep moving without sending every step to a hosted API.
+Ollama's NVIDIA Nemotron 3.5 Lightning release is worth reading as an infrastructure signal, not just a model catalog update. Local agents are being optimized for the rhythm of real tool work: gather context, call a tool, inspect the result, retry, and keep moving without sending every step to a hosted API.
 
 NVIDIA describes Nemotron 3.5 Lightning as a 30-billion-parameter mixture-of-experts model with 3 billion active parameters per token. The model card lists up to a 1 million token context window and says the model is intended for long-running autonomous agents, sub-agent workhorse deployments, and efficient local inference on personal hardware.
 
