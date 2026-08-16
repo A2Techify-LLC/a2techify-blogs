@@ -1,6 +1,6 @@
 # Docker Sandboxes Make ESP32 Agent Workflows Less Risky
 
-LinkedIn newsletter draft for A2Techify Notes.
+LinkedIn newsletter draft for A2Techify Field Notes.
 
 Source post: https://blogs.a2techify.com/2026/08/16/docker-esp32-firmware-sandboxes/
 LinkedIn URL: TODO after publishing
