@@ -612,18 +612,22 @@ a:hover {
     flex-direction: column;
   }
 
-  .site-nav,
-  .footer-links {
+  .site-nav {
     justify-content: flex-start;
   }
 
   .footer-grid {
     grid-template-columns: 1fr;
     align-items: start;
+    gap: 18px;
   }
 
   .footer-links {
-    gap: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    justify-content: start;
   }
 
   .hero {
@@ -762,11 +766,6 @@ a:hover {
 
   .site-footer {
     padding: 32px 0;
-  }
-
-  .footer-links {
-    display: grid;
-    grid-template-columns: 1fr;
   }
 
   .footer-links a {
