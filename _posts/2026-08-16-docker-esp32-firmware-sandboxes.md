@@ -5,6 +5,7 @@ date: 2026-08-16 07:30:00 -0500
 categories: [devtools, infrastructure]
 tags: [docker, esp32, firmware, agents, devtools, ci]
 description: "A practical look at reproducible ESP32 firmware builds, remote serial flashing, and safer AI-assisted hardware loops with Docker Sandboxes."
+image: "/assets/images/a2techify-blogs-card.png"
 ---
 
 Docker's August 14 ESP32 firmware workflow post is useful because it connects two problems embedded teams already feel: reproducible builds and safe AI-assisted experimentation. The official `espressif/idf` Docker image gives every developer and CI runner the same ESP-IDF toolchain. Docker Sandboxes add an isolated place where a coding agent can build, install tools, and test ideas without getting broad access to the host machine.
