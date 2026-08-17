@@ -52,6 +52,17 @@ Most posts should cover the following ground, but the headings should fit the su
 - What the team would watch next
 - References
 
+## Style
+
+Maintain the current A2Techify Blogs style for future posts. Treat the existing site and recent posts as the source of truth.
+
+- Keep the tone direct, practical, and human. Avoid robotic phrases, hype, filler, or generic "signal not spectacle" language.
+- Write for builders, operators, and small technical teams who want to know what changed, how to try it, what it costs, and where to be careful.
+- Use the existing post structure and section rhythm unless the topic genuinely needs a different order.
+- Keep examples concrete, but do not force a sample repo or long tutorial into every post.
+- Do not add per-post visual styling, new layout patterns, or one-off design flourishes unless the site design itself is intentionally being updated.
+- Preserve the current dark A2Techify visual language, footer/header structure, logo usage, and simple note-focused navigation.
+
 ## Example Code
 
 Do not create a new repo by default. Create or reuse a repo only when it materially helps the reader understand, test, or reuse the idea.
