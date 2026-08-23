@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Cloudflare Bot Preference Sync AI Crawlers</title>
+  <desc id="desc">A branded A2Techify social card for an article about keeping AI crawler policy and robots.txt aligned.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#66d9ff" stroke-opacity=".45" stroke-width="2"/>
+  <text x="104" y="145" fill="#66d9ff" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="250" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="900">AI Bot Policy</text>
+  <text x="104" y="322" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="900">Needs One Source</text>
+  <text x="104" y="424" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Cloudflare syncs AI crawler policy.</text>
+  <rect x="825" y="190" width="270" height="274" rx="8" fill="none" stroke="#8cffc1" stroke-width="10"/>
+  <line x1="868" y1="248" x2="1052" y2="248" stroke="#66d9ff" stroke-width="16" stroke-linecap="round"/>
+  <line x1="868" y1="308" x2="1024" y2="308" stroke="#d5ff61" stroke-width="16" stroke-linecap="round"/>
+  <line x1="868" y1="368" x2="982" y2="368" stroke="#ff7a66" stroke-width="16" stroke-linecap="round"/>
+  <path d="M794 214l-54 54 54 54" fill="none" stroke="#d5ff61" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1124 214l54 54-54 54" fill="none" stroke="#d5ff61" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1028" cy="164" r="44" fill="#ff7a66"/>
+</svg>
