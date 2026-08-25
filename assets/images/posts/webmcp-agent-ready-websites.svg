@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">WebMCP Agent Ready Websites</title>
+  <desc id="desc">A branded A2Techify social card for a WebMCP article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ff7a66" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ff7a66" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="250" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Websites Need</text>
+  <text x="104" y="324" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Agent Tools</text>
+  <text x="104" y="424" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">WebMCP, Cloudflare, MCP, and browser agents.</text>
+  <circle cx="1018" cy="164" r="48" fill="#d5ff61"/>
+  <rect x="830" y="235" width="278" height="210" rx="8" fill="none" stroke="#8cffc1" stroke-width="12"/>
+  <path d="M830 292h278" stroke="#8cffc1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M880 356h80m-80 48h150" stroke="#f7f8f5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M790 494h118c40 0 58-58 104-58h138" fill="none" stroke="#ff7a66" stroke-width="16" stroke-linecap="round"/>
+  <path d="M904 494l-34-34m34 34l-34 34m242-92l38-30m-38 30l38 30" stroke="#d5ff61" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
