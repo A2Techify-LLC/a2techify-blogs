@@ -17,7 +17,7 @@ Cloudflare's WebMCP preview can add browser-discoverable tools to a site at the 
 
 - WebMCP is an early browser API from Chrome that gives websites a standard way to expose structured tools for AI agents.
 - Most browser agents are still brittle because the web was designed for people.
-- Cloudflare's preview can inject a same-origin bridge that registers tool packs without changing the origin application.
+- Second, that bridge runs in the page. If the browser does not support WebMCP, it exits and the site behaves normally. If WebMCP is available, the bridge registers the selected tools.
 - The big question is whether WebMCP becomes a common browser capability or remains a lab feature used by a few agent platforms.
 
 ## CTA
