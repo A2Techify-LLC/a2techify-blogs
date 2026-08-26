@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Rule Insights Repository Governance</title>
+  <desc id="desc">A branded A2Techify social card for a GitHub rule insights article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ff7a66" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ff7a66" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="250" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Repository Rules</text>
+  <text x="104" y="324" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Need Evidence</text>
+  <text x="104" y="424" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">GitHub rulesets, bypasses, dashboards, and audits.</text>
+  <circle cx="1018" cy="164" r="48" fill="#d5ff61"/>
+  <rect x="802" y="232" width="306" height="228" rx="8" fill="none" stroke="#8cffc1" stroke-width="12"/>
+  <path d="M802 292h306" stroke="#8cffc1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M852 404h44m54 0h44m54 0h20" stroke="#f7f8f5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M850 352h210" stroke="#ff7a66" stroke-width="14" stroke-linecap="round"/>
+  <path d="M850 352c44-54 88-54 132 0s88 54 132 0" fill="none" stroke="#d5ff61" stroke-width="14" stroke-linecap="round"/>
+  <path d="M846 496h78m48 0h78" stroke="#8cffc1" stroke-width="14" stroke-linecap="round"/>
+  <path d="M784 504c42-32 72-48 122-48h64c50 0 80-16 122-48" fill="none" stroke="#ff7a66" stroke-width="16" stroke-linecap="round"/>
+  <path d="M974 188l42 18 42-18v48c0 48-42 72-42 72s-42-24-42-72z" fill="none" stroke="#f7f8f5" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M996 244l16 16 34-42" fill="none" stroke="#8cffc1" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
