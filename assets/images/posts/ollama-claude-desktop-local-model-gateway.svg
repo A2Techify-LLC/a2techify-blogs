@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Ollama Claude Desktop Local Model Gateway</title>
+  <desc id="desc">A branded A2Techify social card for a local model gateway article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#8cffc1" stroke-opacity=".35" stroke-width="2"/>
+  <text x="104" y="145" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="254" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Local Models</text>
+  <text x="104" y="328" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">In Claude Desktop</text>
+  <text x="104" y="426" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Ollama as a desktop gateway for open models.</text>
+  <circle cx="1016" cy="162" r="48" fill="#ffca5f"/>
+  <rect x="808" y="248" width="288" height="178" rx="8" fill="none" stroke="#80e9ff" stroke-width="12"/>
+  <path d="M808 304h288" stroke="#80e9ff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="854" cy="278" r="10" fill="#ff7a66"/>
+  <circle cx="890" cy="278" r="10" fill="#ffca5f"/>
+  <circle cx="926" cy="278" r="10" fill="#8cffc1"/>
+  <path d="M858 364h92m-92 42h154" stroke="#f7f8f5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M766 500h132c42 0 58-68 112-68h134" fill="none" stroke="#8cffc1" stroke-width="16" stroke-linecap="round"/>
+  <path d="M898 500l-34-34m34 34l-34 34m246-102l38-30m-38 30l38 30" stroke="#ffca5f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
