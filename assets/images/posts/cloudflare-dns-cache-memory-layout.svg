@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Cloudflare DNS Cache Memory Layout</title>
+  <desc id="desc">A branded A2Techify social card for a DNS cache memory layout article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#8cffc1" stroke-opacity=".35" stroke-width="2"/>
+  <text x="104" y="145" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="254" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Cache Layout</text>
+  <text x="104" y="328" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Still Matters</text>
+  <text x="104" y="480" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Cloudflare's 100 TB memory lesson.</text>
+  <circle cx="1018" cy="160" r="48" fill="#ffca5f"/>
+  <rect x="790" y="238" width="280" height="52" rx="8" fill="none" stroke="#80e9ff" stroke-width="10"/>
+  <rect x="790" y="318" width="250" height="52" rx="8" fill="none" stroke="#8cffc1" stroke-width="10"/>
+  <rect x="790" y="398" width="190" height="52" rx="8" fill="none" stroke="#ff7a66" stroke-width="10"/>
+  <path d="M760 264h-90m90 80h-90m90 80h-90" stroke="#c8cec3" stroke-width="12" stroke-linecap="round"/>
+  <path d="M672 264h-54m54 80h-54m54 80h-54" stroke="#8cffc1" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1024 344h72m-36-36v72" stroke="#ffca5f" stroke-width="14" stroke-linecap="round"/>
+  <text x="824" y="274" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">250B entries</text>
+  <text x="824" y="354" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">56% smaller</text>
+  <text x="824" y="434" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">19% faster</text>
+</svg>
