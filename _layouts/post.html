@@ -8,9 +8,12 @@ layout: default
 
 <article class="post-shell">
   <header class="post-hero">
+    <div class="wrap post-hero-topline">
+      <a class="back-link" href="{{ '/' | relative_url }}">← Journal</a>
+      <span>Field note / {{ page.date | date: "%Y.%m.%d" }}</span>
+    </div>
     <div class="wrap post-hero-grid">
       <div class="post-hero-copy">
-        <a class="back-link" href="{{ '/' | relative_url }}">← All field notes</a>
         <div class="post-meta-line">
           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
           <span>{{ reading_minutes }} min read</span>
@@ -28,17 +31,17 @@ layout: default
         {% endif %}
       </div>
 
-      {% if page.image %}
-        <figure class="post-hero-image"><img src="{{ page.image | relative_url }}" alt="" width="1200" height="630"></figure>
-      {% endif %}
     </div>
+    {% if page.image %}
+      <figure class="wrap post-hero-image"><img src="{{ page.image | relative_url }}" alt="" width="1200" height="630"></figure>
+    {% endif %}
   </header>
 
   <section class="content-section">
     <div class="wrap article-grid">
       <aside class="article-sidebar" aria-label="Article resources">
-        <span class="sidebar-label">In this note</span>
-        <p>{{ reading_minutes }} minute read</p>
+        <span class="sidebar-label">Reading time</span>
+        <p><strong>{{ reading_minutes }}</strong> minutes</p>
         {% if page.sample_repo or page.linkedin_url %}
           <div class="resource-links">
             {% if page.sample_repo %}<a href="{{ page.sample_repo }}">Example repository <span aria-hidden="true">↗</span></a>{% endif %}
@@ -52,10 +55,10 @@ layout: default
 
   <footer class="post-footer">
     <div class="wrap">
-      <div class="post-footer-heading"><span class="eyebrow">Keep reading</span><h2>More from the engineering bench</h2></div>
+      <div class="post-footer-heading"><span class="section-index">Next</span><span class="eyebrow eyebrow-light">Keep reading</span><h2>Stay curious.<br>Follow the thread.</h2></div>
       <nav class="post-pagination" aria-label="More articles">
-        {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><small>Previous</small><strong>{{ page.previous.title }}</strong></a>{% endif %}
-        {% if page.next %}<a href="{{ page.next.url | relative_url }}"><small>Next</small><strong>{{ page.next.title }}</strong></a>{% endif %}
+        {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><small>Older note</small><strong>{{ page.previous.title }}</strong><span aria-hidden="true">↙</span></a>{% endif %}
+        {% if page.next %}<a href="{{ page.next.url | relative_url }}"><small>Newer note</small><strong>{{ page.next.title }}</strong><span aria-hidden="true">↗</span></a>{% endif %}
       </nav>
     </div>
   </footer>

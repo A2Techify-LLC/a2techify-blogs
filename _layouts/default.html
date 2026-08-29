@@ -9,10 +9,10 @@
     <link rel="apple-touch-icon" href="{{ site.logo | relative_url }}" sizes="192x192">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   </head>
-  <body>
+  <body class="layout-{{ page.layout | default: 'default' }}">
     <a class="skip-link" href="#content">Skip to content</a>
 
     <header class="site-header">
@@ -23,15 +23,15 @@
           </span>
           <span class="brand-copy">
             <strong>A2Techify</strong>
-            <small>Field Notes</small>
+            <small>Field Notes <i aria-hidden="true">/</i> 2026</small>
           </span>
         </a>
 
         <nav class="site-nav" aria-label="Primary navigation">
-          <a{% if page.url == '/' %} aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Articles</a>
+          <a{% if page.url == '/' %} aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Journal</a>
           <a{% if page.url contains '/tags/' %} aria-current="page"{% endif %} href="{{ '/tags/' | relative_url }}">Topics</a>
           <a{% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about/' | relative_url }}">About</a>
-          <a class="nav-external" href="https://github.com/{{ site.github_username }}" rel="me">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="nav-rss" href="{{ '/feed.xml' | relative_url }}">RSS <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
@@ -41,19 +41,29 @@
     </main>
 
     <footer class="site-footer">
-      <div class="wrap footer-grid">
-        <div>
-          <div class="footer-kicker">A2Techify Field Notes</div>
-          <p>Practical engineering notes from the team at A2Techify.</p>
+      <div class="wrap footer-top">
+        <div class="footer-statement">
+          <span class="eyebrow eyebrow-light">A2Techify Field Notes</span>
+          <p>Ideas are cheap.<br><strong>Evidence ships.</strong></p>
         </div>
-        <div class="footer-links">
-          <a href="https://www.a2techify.com">A2Techify.com</a>
-          <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-          <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
-          <a href="{{ '/terms/' | relative_url }}">Terms</a>
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          <a href="https://github.com/{{ site.github_username }}">Code</a>
+        <div class="footer-directory">
+          <div>
+            <small>Explore</small>
+            <a href="{{ '/' | relative_url }}">Journal</a>
+            <a href="{{ '/tags/' | relative_url }}">Topics</a>
+            <a href="{{ '/about/' | relative_url }}">About</a>
+          </div>
+          <div>
+            <small>Connect</small>
+            <a href="https://www.a2techify.com">A2Techify.com ↗</a>
+            <a href="https://github.com/{{ site.github_username }}">GitHub ↗</a>
+            <a href="mailto:{{ site.email }}">Email ↗</a>
+          </div>
         </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <span>© {{ 'now' | date: "%Y" }} A2Techify LLC</span>
+        <div><a href="{{ '/privacy/' | relative_url }}">Privacy</a><a href="{{ '/terms/' | relative_url }}">Terms</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a></div>
       </div>
     </footer>
   </body>

@@ -5,12 +5,12 @@ permalink: /tags/
 description: "Browse A2Techify Field Notes by AI, developer tools, security, robotics, local agents, and operations topics."
 ---
 
-<p>Follow a thread across our field notes. Counts reflect the articles published so far.</p>
+<p class="page-intro">Follow a thread across our field notes. Counts reflect the articles published so far.</p>
 
 <nav class="tag-list" aria-label="All topics">
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
     {% assign tag_slug = tag[0] | slugify %}
-    <a href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}"><span>{{ tag[0] }}</span><small>{{ tag[1].size }} {% if tag[1].size == 1 %}article{% else %}articles{% endif %}</small></a>
+    <a href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}"><span>{{ tag[0] }}</span><small>{{ tag[1].size }} {% if tag[1].size == 1 %}note{% else %}notes{% endif %} <b aria-hidden="true">↗</b></small></a>
   {% endfor %}
 </nav>
