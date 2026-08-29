@@ -26,6 +26,12 @@ node tools/create-linkedin-drafts.mjs _posts/YYYY-MM-DD-slug.md
 bundle exec jekyll build
 ```
 
+If Ruby/Bundler is not installed on the host, run the pinned containerized check instead:
+
+```bash
+tools/validate-site-docker.sh
+```
+
 The blog remains the canonical version. LinkedIn drafts are generated into `linkedin-drafts/` as a starting point. Copy a draft into LinkedIn before editing it there; regenerating drafts can overwrite the repository copy.
 
 ## Repository map
@@ -34,7 +40,7 @@ The blog remains the canonical version. LinkedIn drafts are generated into `link
 - `_layouts/` and `_includes/` — site templates
 - `assets/` — styling and article artwork
 - `tags/` — topic landing pages
-- `tools/` — content validation and LinkedIn draft generation
+- `tools/` — content validation, reproducible containerized Jekyll builds, and LinkedIn draft generation
 - `admin/` — the editorial playbook
 
 GitHub Pages deploys `main`. Pull requests and pushes run content validation and a full Jekyll build.

@@ -94,7 +94,7 @@ Before publishing:
 
 - Add a 1200×630 social image. Prefer PNG for reliable link previews.
 - Check that every tag has a matching `tags/<tag>/index.html` page.
-- Run `node tools/validate-site.mjs` and `bundle exec jekyll build`.
+- Run `tools/validate-site-docker.sh`. It performs content validation and a pinned, read-only containerized Jekyll production build without writing Bundler artifacts into the repository.
 - Read the introduction and conclusion aloud. Remove generic transitions, repeated claims, and language that sounds like a product announcement.
 
 Commit and push the blog repo after the local checks pass.
