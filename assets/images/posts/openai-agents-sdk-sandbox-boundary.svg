@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI Agents SDK Sandbox Boundary</title>
+  <desc id="desc">A branded A2Techify social card for an agent sandbox article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#8cffc1" stroke-opacity=".35" stroke-width="2"/>
+  <text x="104" y="145" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="254" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Agents Need</text>
+  <text x="104" y="328" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Sandbox Boundaries</text>
+  <text x="104" y="426" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Manifests, isolated compute, and durable state.</text>
+  <circle cx="1016" cy="162" r="48" fill="#80e9ff"/>
+  <rect x="810" y="238" width="286" height="214" rx="8" fill="none" stroke="#8cffc1" stroke-width="12"/>
+  <rect x="852" y="286" width="202" height="118" rx="8" fill="none" stroke="#f7f8f5" stroke-width="10"/>
+  <path d="M884 326h72m-72 38h122" stroke="#ffca5f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M734 344h76m286 0h62" stroke="#ff7a66" stroke-width="14" stroke-linecap="round"/>
+  <path d="M782 312l28 32-28 32m342-64-28 32 28 32" fill="none" stroke="#ff7a66" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M936 476v42h-92m92-42v42h92" fill="none" stroke="#80e9ff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
