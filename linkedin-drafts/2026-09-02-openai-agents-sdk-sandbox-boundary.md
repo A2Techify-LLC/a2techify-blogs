@@ -15,10 +15,10 @@ OpenAI's Agents SDK update is a practical reminder that production agents need e
 
 ## Takeaways
 
-- OpenAI is treating the agent workspace as a production boundary: mounted inputs, defined outputs, isolated compute, and resumable state.
-- The security lesson is direct: keep credentials and harness state outside the sandbox where model-generated commands run.
-- A useful first version should be narrow: one read-only source, one output directory, no sandbox-visible secrets, and approval before external writes.
-- The bigger pattern to watch is whether workspace manifests become portable across model SDKs, sandbox providers, CI systems, and MCP gateways.
+- OpenAI says the Agents SDK now includes a model-native harness with configurable memory, sandbox-aware orchestration, Codex-like filesystem tools, MCP tool use, skills, AGENTS.md...
+- One script passes a folder path.
+- The harness owns the agent loop: instructions, memory, tool orchestration, resumable state, and coordination across files and tools.
+- The next important step is whether this workspace-manifest idea becomes portable across agent stacks.
 
 ## CTA
 
