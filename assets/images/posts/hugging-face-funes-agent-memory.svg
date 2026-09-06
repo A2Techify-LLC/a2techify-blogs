@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Agent memory you own</title>
+  <desc id="desc">A2Techify field note card about Hugging Face Funes and local-first agent memory.</desc>
+
+  <defs>
+    <pattern id="grid" width="80" height="70" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V70" fill="none" stroke="#7f92ae" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101824"/>
+      <stop offset="1" stop-color="#0c131e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#090e15"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="70" y="70" width="1060" height="490" rx="24" fill="url(#panel)" stroke="#4c607d" stroke-width="2"/>
+
+  <!-- Copy column: all text stays within x=104..690. -->
+  <text x="104" y="132" fill="#aebbd0" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="600">A2Techify Field Note</text>
+  <text x="104" y="224" fill="#f4f7ff" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Agent memory</text>
+  <text x="104" y="294" fill="#f4f7ff" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">you own</text>
+  <text x="104" y="363" fill="#bfcbe0" font-family="Inter, Arial, sans-serif" font-size="25">Verbatim sessions. Provenance.</text>
+  <text x="104" y="399" fill="#bfcbe0" font-family="Inter, Arial, sans-serif" font-size="25">Local retrieval.</text>
+  <rect x="104" y="448" width="378" height="54" rx="27" fill="#152536" stroke="#46d7d0" stroke-width="2"/>
+  <text x="293" y="483" fill="#ddfffc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Hugging Face Funes</text>
+
+  <!-- Illustration column: no paths or shapes enter the copy column. -->
+  <path d="M735 158V392" fill="none" stroke="#526582" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="735" cy="175" r="18" fill="#46d7d0"/>
+  <circle cx="735" cy="275" r="18" fill="#7ce88b"/>
+  <circle cx="735" cy="375" r="18" fill="#ffc15c"/>
+
+  <rect x="784" y="142" width="250" height="67" rx="14" fill="#263247" stroke="#526582"/>
+  <rect x="806" y="163" width="105" height="10" rx="5" fill="#46d7d0"/>
+  <rect x="806" y="184" width="194" height="8" rx="4" fill="#7889a4"/>
+
+  <rect x="784" y="242" width="250" height="67" rx="14" fill="#263247" stroke="#526582"/>
+  <rect x="806" y="263" width="105" height="10" rx="5" fill="#7ce88b"/>
+  <rect x="806" y="284" width="194" height="8" rx="4" fill="#7889a4"/>
+
+  <rect x="784" y="342" width="250" height="67" rx="14" fill="#263247" stroke="#526582"/>
+  <rect x="806" y="363" width="105" height="10" rx="5" fill="#ffc15c"/>
+  <rect x="806" y="384" width="194" height="8" rx="4" fill="#7889a4"/>
+
+  <path d="M910 430V461H1007" fill="none" stroke="#46d7d0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1007 461L987 449V473Z" fill="#46d7d0"/>
+  <rect x="812" y="485" width="222" height="54" rx="16" fill="#101824" stroke="#46d7d0" stroke-width="2"/>
+  <text x="923" y="520" fill="#f4f7ff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">recall</text>
+
+  <text x="90" y="600" fill="#aebbd0" font-family="Inter, Arial, sans-serif" font-size="24">Local-first agent memory, without losing the record.</text>
+</svg>
