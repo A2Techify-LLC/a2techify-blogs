@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Programmatic Tool Calling Makes Agent Pipelines Smaller</title>
+  <desc id="desc">A branded A2Techify social card for an article about programmatic tool calling.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#8cffc1" stroke-opacity=".35" stroke-width="2"/>
+  <text x="104" y="145" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="250" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Programmatic</text>
+  <text x="104" y="318" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Tool Calling</text>
+  <text x="104" y="414" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="31">Smaller loops for bounded agent work.</text>
+  <rect x="772" y="152" width="288" height="326" rx="8" fill="#10120f" stroke="#80e9ff" stroke-width="10"/>
+  <path d="M820 220h190M820 272h130M820 324h212M820 376h154" stroke="#f7f8f5" stroke-width="12" stroke-linecap="round"/>
+  <path d="M706 254h66M706 376h66M1060 254h68M1060 376h68" stroke="#ff7a66" stroke-width="14" stroke-linecap="round"/>
+  <path d="M728 222l44 32-44 32M1084 222l-24 32 24 32M728 344l44 32-44 32M1084 344l-24 32 24 32" fill="none" stroke="#ff7a66" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1034" cy="146" r="44" fill="#ffca5f"/>
+  <path d="M884 500v36h-92m92-36v36h92" fill="none" stroke="#8cffc1" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
