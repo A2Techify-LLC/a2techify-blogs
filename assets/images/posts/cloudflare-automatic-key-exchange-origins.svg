@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Cloudflare Automatic Key Exchange</title>
+  <desc id="desc">Dark A2Techify social card showing Cloudflare selecting post-quantum origin TLS key exchange.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#101827"/>
+      <stop offset="1" stop-color="#121a12"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f48120"/>
+      <stop offset="0.5" stop-color="#f7b955"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#94a3b8" stroke-width="1">
+    <path d="M80 110H1120"/>
+    <path d="M80 210H1120"/>
+    <path d="M80 310H1120"/>
+    <path d="M80 410H1120"/>
+    <path d="M80 510H1120"/>
+    <path d="M180 70V560"/>
+    <path d="M360 70V560"/>
+    <path d="M540 70V560"/>
+    <path d="M720 70V560"/>
+    <path d="M900 70V560"/>
+  </g>
+  <g filter="url(#soft)">
+    <rect x="74" y="74" width="1052" height="482" rx="8" fill="#0f172a" stroke="#243244"/>
+    <rect x="74" y="74" width="1052" height="54" rx="8" fill="#111827"/>
+    <circle cx="106" cy="101" r="7" fill="#f48120"/>
+    <circle cx="130" cy="101" r="7" fill="#f7b955"/>
+    <circle cx="154" cy="101" r="7" fill="#5eead4"/>
+  </g>
+  <text x="116" y="178" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="700">Automatic Key Exchange</text>
+  <text x="118" y="224" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="26">Cloudflare measures origin TLS support, then leads with the strongest safe key share.</text>
+  <g transform="translate(134 292)">
+    <rect x="0" y="0" width="228" height="110" rx="8" fill="#111827" stroke="#334155"/>
+    <text x="28" y="48" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Cloudflare Edge</text>
+    <text x="28" y="78" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">TLS 1.3 client</text>
+  </g>
+  <g transform="translate(836 292)">
+    <rect x="0" y="0" width="228" height="110" rx="8" fill="#111827" stroke="#334155"/>
+    <text x="28" y="48" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Origin Server</text>
+    <text x="28" y="78" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">Measured daily</text>
+  </g>
+  <path d="M392 347H804" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M780 323L812 347L780 371" fill="none" stroke="#5eead4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">
+    <rect x="456" y="290" width="272" height="44" rx="8" fill="#172033" stroke="#334155"/>
+    <text x="480" y="320" fill="#f7b955">X25519MLKEM768</text>
+    <rect x="488" y="372" width="210" height="44" rx="8" fill="#172033" stroke="#334155"/>
+    <text x="512" y="402" fill="#e2e8f0">fallback groups</text>
+  </g>
+  <g transform="translate(118 474)">
+    <rect x="0" y="0" width="212" height="42" rx="8" fill="#162032" stroke="#334155"/>
+    <text x="22" y="28" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="18">HRR: 52% to 3.7%</text>
+    <rect x="236" y="0" width="214" height="42" rx="8" fill="#162032" stroke="#334155"/>
+    <text x="258" y="28" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="18">p90: -150 ms</text>
+    <rect x="474" y="0" width="272" height="42" rx="8" fill="#162032" stroke="#334155"/>
+    <text x="496" y="28" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="18">post-quantum where supported</text>
+  </g>
+  <text x="118" y="592" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="20">A2Techify Field Notes</text>
+</svg>
