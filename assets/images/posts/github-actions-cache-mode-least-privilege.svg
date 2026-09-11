@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Actions Cache Mode Least Privilege</title>
+  <desc id="desc">A branded A2Techify social card for a GitHub Actions cache security article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ff7a66" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ff7a66" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="250" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">GitHub Actions</text>
+  <text x="104" y="324" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Cache Mode</text>
+  <text x="104" y="424" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Read, write, write-only, or none.</text>
+  <circle cx="1018" cy="164" r="48" fill="#d5ff61"/>
+  <rect x="792" y="232" width="316" height="220" rx="8" fill="none" stroke="#8cffc1" stroke-width="12"/>
+  <path d="M838 292h98m-98 52h180m-180 52h144" stroke="#f7f8f5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1020 290v-34c0-42-28-70-70-70s-70 28-70 70v34" fill="none" stroke="#d5ff61" stroke-width="16" stroke-linecap="round"/>
+  <rect x="886" y="282" width="128" height="104" rx="8" fill="#ff7a66"/>
+  <circle cx="950" cy="326" r="14" fill="#10120f"/>
+  <path d="M950 338v28" stroke="#10120f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M790 500c58-48 122-48 180 0s122 48 180 0" fill="none" stroke="#ff7a66" stroke-width="16" stroke-linecap="round"/>
+  <path d="M842 526h70m112 0h70" stroke="#d5ff61" stroke-width="14" stroke-linecap="round"/>
+</svg>
