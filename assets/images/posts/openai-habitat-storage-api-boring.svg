@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI Habitat Storage API Boring</title>
+  <desc id="desc">A branded A2Techify social card for an infrastructure article about OpenAI Habitat.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#8cffc1" stroke-opacity=".45" stroke-width="2"/>
+  <text x="104" y="145" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="250" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">OpenAI Habitat</text>
+  <text x="104" y="324" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Storage Lessons</text>
+  <text x="104" y="424" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Constant-work APIs, event-loop delay, and Rust.</text>
+  <circle cx="1018" cy="164" r="48" fill="#d5ff61"/>
+  <rect x="782" y="214" width="336" height="248" rx="8" fill="#10120f" stroke="#ff7a66" stroke-width="10"/>
+  <path d="M826 282h248M826 336h248M826 390h248" stroke="#f7f8f5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M854 246v184M950 246v184M1046 246v184" stroke="#8cffc1" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+  <path d="M740 504c58-44 116-44 174 0s116 44 174 0" fill="none" stroke="#d5ff61" stroke-width="16" stroke-linecap="round"/>
+  <path d="M806 530h82m92 0h82" stroke="#ff7a66" stroke-width="14" stroke-linecap="round"/>
+</svg>
