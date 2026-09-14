@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/13/cloudflare-post-quantum-dnssec-resolver/
+Source post: https://blogs.a2techify.com/security/infrastructure/2026/09/13/cloudflare-post-quantum-dnssec-resolver.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare's 1.1.1.1 resolver now validates ML-DSA-44 DNSSEC signatures, exposin
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/13/cloudflare-post-quantum-dnssec-resolver/
+Read the full note: https://blogs.a2techify.com/security/infrastructure/2026/09/13/cloudflare-post-quantum-dnssec-resolver.html
 
 ## Publishing Notes
 

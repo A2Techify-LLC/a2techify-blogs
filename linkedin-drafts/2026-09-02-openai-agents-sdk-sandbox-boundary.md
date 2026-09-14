@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/02/openai-agents-sdk-sandbox-boundary/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/09/02/openai-agents-sdk-sandbox-boundary.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ OpenAI's Agents SDK update is a practical reminder that production agents need e
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/02/openai-agents-sdk-sandbox-boundary/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/09/02/openai-agents-sdk-sandbox-boundary.html
 
 ## Publishing Notes
 

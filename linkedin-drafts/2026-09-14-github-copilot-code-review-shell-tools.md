@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/14/github-copilot-code-review-shell-tools/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/09/14/github-copilot-code-review-shell-tools.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ GitHub Copilot code review now uses broader shell tools and an ensemble of agent
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/14/github-copilot-code-review-shell-tools/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/09/14/github-copilot-code-review-shell-tools.html
 
 ## Publishing Notes
 

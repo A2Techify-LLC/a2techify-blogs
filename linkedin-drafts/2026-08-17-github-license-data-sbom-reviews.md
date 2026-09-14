@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/17/github-license-data-sbom-reviews/
+Source post: https://blogs.a2techify.com/security/devtools/2026/08/17/github-license-data-sbom-reviews.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ GitHub is prioritizing registry license metadata in the dependency graph, which 
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/17/github-license-data-sbom-reviews/
+Read the full note: https://blogs.a2techify.com/security/devtools/2026/08/17/github-license-data-sbom-reviews.html
 
 ## Publishing Notes
 

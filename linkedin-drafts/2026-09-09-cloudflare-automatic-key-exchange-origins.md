@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/09/cloudflare-automatic-key-exchange-origins/
+Source post: https://blogs.a2techify.com/security/infrastructure/2026/09/09/cloudflare-automatic-key-exchange-origins.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare's Automatic Key Exchange measures each origin's TLS 1.3 key agreement
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/09/cloudflare-automatic-key-exchange-origins/
+Read the full note: https://blogs.a2techify.com/security/infrastructure/2026/09/09/cloudflare-automatic-key-exchange-origins.html
 
 ## Publishing Notes
 

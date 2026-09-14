@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/08/vscode-agent-merge-pr-cleanup/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/09/08/vscode-agent-merge-pr-cleanup.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ VS Code 1.136 adds Agent Merge in preview, giving coding agents a narrower loop 
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/08/vscode-agent-merge-pr-cleanup/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/09/08/vscode-agent-merge-pr-cleanup.html
 
 ## Publishing Notes
 

@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/18/gpu-scheduling-utilization-ai-infrastructure/
+Source post: https://blogs.a2techify.com/ai/infrastructure/2026/08/18/gpu-scheduling-utilization-ai-infrastructure.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -21,7 +21,7 @@ A practical look at why GPU allocation order matters for AI teams running mixed 
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/18/gpu-scheduling-utilization-ai-infrastructure/
+Read the full note: https://blogs.a2techify.com/ai/infrastructure/2026/08/18/gpu-scheduling-utilization-ai-infrastructure.html
 
 ## Publishing Notes
 

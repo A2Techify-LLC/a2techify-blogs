@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/30/codex-platform-agent-harness/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/08/30/codex-platform-agent-harness.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ OpenAI's Codex platform post is a practical reminder that useful agents need run
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/30/codex-platform-agent-harness/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/08/30/codex-platform-agent-harness.html
 
 ## Publishing Notes
 

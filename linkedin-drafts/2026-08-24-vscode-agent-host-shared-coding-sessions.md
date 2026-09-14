@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/24/vscode-agent-host-shared-coding-sessions/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/08/24/vscode-agent-host-shared-coding-sessions.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ VS Code 1.134 moves agent sessions toward a dedicated Agent Host process, making
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/24/vscode-agent-host-shared-coding-sessions/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/08/24/vscode-agent-host-shared-coding-sessions.html
 
 ## Publishing Notes
 

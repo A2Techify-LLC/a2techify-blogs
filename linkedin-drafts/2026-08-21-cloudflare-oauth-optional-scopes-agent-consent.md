@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/21/cloudflare-oauth-optional-scopes-agent-consent/
+Source post: https://blogs.a2techify.com/security/engineering/2026/08/21/cloudflare-oauth-optional-scopes-agent-consent.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare's optional OAuth scopes give agent and MCP builders a practical way t
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/21/cloudflare-oauth-optional-scopes-agent-consent/
+Read the full note: https://blogs.a2techify.com/security/engineering/2026/08/21/cloudflare-oauth-optional-scopes-agent-consent.html
 
 ## Publishing Notes
 

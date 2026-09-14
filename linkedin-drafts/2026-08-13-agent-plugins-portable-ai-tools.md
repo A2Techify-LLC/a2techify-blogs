@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/13/agent-plugins-portable-ai-tools/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/08/13/agent-plugins-portable-ai-tools.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -26,7 +26,7 @@ https://github.com/A2Techify-LLC/agent-plugin-portable-starter
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/13/agent-plugins-portable-ai-tools/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/08/13/agent-plugins-portable-ai-tools.html
 
 ## Publishing Notes
 

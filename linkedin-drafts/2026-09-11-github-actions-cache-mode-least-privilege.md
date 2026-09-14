@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/11/github-actions-cache-mode-least-privilege/
+Source post: https://blogs.a2techify.com/security/ci/2026/09/11/github-actions-cache-mode-least-privilege.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ GitHub Actions cache-mode is now generally available, giving workflows and jobs 
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/11/github-actions-cache-mode-least-privilege/
+Read the full note: https://blogs.a2techify.com/security/ci/2026/09/11/github-actions-cache-mode-least-privilege.html
 
 ## Publishing Notes
 

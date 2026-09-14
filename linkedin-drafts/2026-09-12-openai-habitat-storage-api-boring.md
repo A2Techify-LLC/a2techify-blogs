@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/12/openai-habitat-storage-api-boring/
+Source post: https://blogs.a2techify.com/infrastructure/engineering/2026/09/12/openai-habitat-storage-api-boring.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ OpenAI's Habitat storage platform is a useful reminder that predictable APIs, ev
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/12/openai-habitat-storage-api-boring/
+Read the full note: https://blogs.a2techify.com/infrastructure/engineering/2026/09/12/openai-habitat-storage-api-boring.html
 
 ## Publishing Notes
 

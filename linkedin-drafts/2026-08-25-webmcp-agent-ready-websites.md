@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/25/webmcp-agent-ready-websites/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/08/25/webmcp-agent-ready-websites.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare's WebMCP preview can add browser-discoverable tools to a site at the 
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/25/webmcp-agent-ready-websites/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/08/25/webmcp-agent-ready-websites.html
 
 ## Publishing Notes
 

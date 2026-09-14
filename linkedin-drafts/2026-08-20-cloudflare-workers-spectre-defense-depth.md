@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/20/cloudflare-workers-spectre-defense-depth/
+Source post: https://blogs.a2techify.com/security/infrastructure/2026/08/20/cloudflare-workers-spectre-defense-depth.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -21,7 +21,7 @@ Cloudflare's Workers Spectre reassessment is a practical reminder that isolate-b
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/20/cloudflare-workers-spectre-defense-depth/
+Read the full note: https://blogs.a2techify.com/security/infrastructure/2026/08/20/cloudflare-workers-spectre-defense-depth.html
 
 ## Publishing Notes
 

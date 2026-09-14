@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/10/cloudflare-workers-module-registry-nodejs/
+Source post: https://blogs.a2techify.com/infrastructure/devtools/2026/09/10/cloudflare-workers-module-registry-nodejs.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare rebuilt the Workers module registry around URL-based resolution, lazy
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/10/cloudflare-workers-module-registry-nodejs/
+Read the full note: https://blogs.a2techify.com/infrastructure/devtools/2026/09/10/cloudflare-workers-module-registry-nodejs.html
 
 ## Publishing Notes
 

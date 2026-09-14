@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/29/cloudflare-botbase-operator-readiness/
+Source post: https://blogs.a2techify.com/ai/security/2026/08/29/cloudflare-botbase-operator-readiness.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare's BotBase for Operators is a practical reminder that agent and crawle
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/29/cloudflare-botbase-operator-readiness/
+Read the full note: https://blogs.a2techify.com/ai/security/2026/08/29/cloudflare-botbase-operator-readiness.html
 
 ## Publishing Notes
 

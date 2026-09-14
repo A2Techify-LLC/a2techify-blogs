@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/07/openai-programmatic-tool-calling-agent-pipelines/
+Source post: https://blogs.a2techify.com/ai/engineering/2026/09/07/openai-programmatic-tool-calling-agent-pipelines.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ OpenAI's Programmatic Tool Calling lets a model write bounded JavaScript to coor
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/07/openai-programmatic-tool-calling-agent-pipelines/
+Read the full note: https://blogs.a2techify.com/ai/engineering/2026/09/07/openai-programmatic-tool-calling-agent-pipelines.html
 
 ## Publishing Notes
 

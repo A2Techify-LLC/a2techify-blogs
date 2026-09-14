@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/12/nemotron-local-agent-loops-ollama/
+Source post: https://blogs.a2techify.com/ai/local-agents/2026/08/12/nemotron-local-agent-loops-ollama.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -26,7 +26,7 @@ https://github.com/A2Techify-LLC/nemotron-local-agent-lab
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/12/nemotron-local-agent-loops-ollama/
+Read the full note: https://blogs.a2techify.com/ai/local-agents/2026/08/12/nemotron-local-agent-loops-ollama.html
 
 ## Publishing Notes
 

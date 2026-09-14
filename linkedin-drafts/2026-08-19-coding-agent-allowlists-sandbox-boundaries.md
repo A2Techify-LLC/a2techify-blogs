@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/19/coding-agent-allowlists-sandbox-boundaries/
+Source post: https://blogs.a2techify.com/ai/security/2026/08/19/coding-agent-allowlists-sandbox-boundaries.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -21,7 +21,7 @@ A practical look at why trusted-command allowlists can fail for coding agents, a
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/19/coding-agent-allowlists-sandbox-boundaries/
+Read the full note: https://blogs.a2techify.com/ai/security/2026/08/19/coding-agent-allowlists-sandbox-boundaries.html
 
 ## Publishing Notes
 

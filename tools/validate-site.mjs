@@ -34,6 +34,17 @@ const postFiles = fs.readdirSync(postsDir).filter((file) => /^\d{4}-\d{2}-\d{2}-
 const seenTitles = new Set();
 const usedTags = new Set();
 
+function postUrl(fileName, data) {
+  const match = fileName.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
+  if (!match) return "";
+  const [, year, month, day, slug] = match;
+  if (data.permalink) return data.permalink;
+  const categories = Array.isArray(data.categories) ? data.categories : [];
+  const categoryPath = categories.map((category) => encodeURIComponent(category)).join("/");
+  const prefix = categoryPath ? `/${categoryPath}` : "";
+  return `${prefix}/${year}/${month}/${day}/${slug}.html`;
+}
+
 for (const file of postFiles) {
   const source = fs.readFileSync(path.join(postsDir, file), "utf8");
   const { data, body } = parseFrontMatter(source, file);
@@ -64,6 +75,10 @@ for (const file of postFiles) {
     const draft = fs.readFileSync(draftPath, "utf8");
     if (!draft.startsWith(`# ${data.title}\n`) && !draft.startsWith(`# ${data.title}\r\n`)) {
       fail(`${file}: LinkedIn draft title is stale; regenerate the draft`);
+    }
+    const expectedPath = postUrl(file, data);
+    if (!draft.includes(`Source post: https://blogs.a2techify.com${expectedPath}`)) {
+      fail(`${file}: LinkedIn draft source URL is stale; regenerate the draft`);
     }
   }
 }

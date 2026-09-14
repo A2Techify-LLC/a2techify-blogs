@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/27/ollama-claude-desktop-local-model-gateway/
+Source post: https://blogs.a2techify.com/ai/devtools/2026/08/27/ollama-claude-desktop-local-model-gateway.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Ollama's Claude Desktop support gives builders a simple way to route desktop AI 
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/27/ollama-claude-desktop-local-model-gateway/
+Read the full note: https://blogs.a2techify.com/ai/devtools/2026/08/27/ollama-claude-desktop-local-model-gateway.html
 
 ## Publishing Notes
 

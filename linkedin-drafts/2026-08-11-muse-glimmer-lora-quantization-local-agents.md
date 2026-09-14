@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/11/muse-glimmer-lora-quantization-local-agents/
+Source post: https://blogs.a2techify.com/ai/local-agents/2026/08/11/muse-glimmer-lora-quantization-local-agents.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -27,7 +27,7 @@ https://github.com/A2Techify-LLC/lora-quantization-realtime-lab
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/11/muse-glimmer-lora-quantization-local-agents/
+Read the full note: https://blogs.a2techify.com/ai/local-agents/2026/08/11/muse-glimmer-lora-quantization-local-agents.html
 
 ## Publishing Notes
 

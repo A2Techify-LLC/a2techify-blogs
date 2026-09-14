@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/16/docker-esp32-firmware-sandboxes/
+Source post: https://blogs.a2techify.com/devtools/infrastructure/2026/08/16/docker-esp32-firmware-sandboxes.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ A practical look at reproducible ESP32 firmware builds, remote serial flashing, 
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/16/docker-esp32-firmware-sandboxes/
+Read the full note: https://blogs.a2techify.com/devtools/infrastructure/2026/08/16/docker-esp32-firmware-sandboxes.html
 
 ## Publishing Notes
 

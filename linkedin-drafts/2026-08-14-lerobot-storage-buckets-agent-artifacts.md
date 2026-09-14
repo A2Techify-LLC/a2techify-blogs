@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/14/lerobot-storage-buckets-agent-artifacts/
+Source post: https://blogs.a2techify.com/ai/engineering/2026/08/14/lerobot-storage-buckets-agent-artifacts.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -26,7 +26,7 @@ https://github.com/A2Techify-LLC/lerobot-bucket-manifest-lab
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/14/lerobot-storage-buckets-agent-artifacts/
+Read the full note: https://blogs.a2techify.com/ai/engineering/2026/08/14/lerobot-storage-buckets-agent-artifacts.html
 
 ## Publishing Notes
 

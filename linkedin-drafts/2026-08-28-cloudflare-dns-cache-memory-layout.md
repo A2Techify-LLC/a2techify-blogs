@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/28/cloudflare-dns-cache-memory-layout/
+Source post: https://blogs.a2techify.com/engineering/infrastructure/2026/08/28/cloudflare-dns-cache-memory-layout.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare's 1.1.1.1 DNS cache work is a practical reminder that high-cardinalit
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/28/cloudflare-dns-cache-memory-layout/
+Read the full note: https://blogs.a2techify.com/engineering/infrastructure/2026/08/28/cloudflare-dns-cache-memory-layout.html
 
 ## Publishing Notes
 

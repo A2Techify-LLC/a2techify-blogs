@@ -56,7 +56,7 @@ function parseSiteConfig() {
   return config;
 }
 
-function postUrl(config, fileName) {
+function postUrl(config, fileName, data = {}) {
   const match = fileName.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
   if (!match) {
     return "";
@@ -64,7 +64,17 @@ function postUrl(config, fileName) {
   const [, year, month, day, slug] = match;
   const siteUrl = String(config.url || "").replace(/\/$/, "");
   const baseUrl = String(config.baseurl || "").replace(/\/$/, "");
-  return `${siteUrl}${baseUrl}/${year}/${month}/${day}/${slug}/`;
+  const explicitPermalink = String(data.permalink || "").trim();
+  if (explicitPermalink) {
+    const normalized = explicitPermalink.startsWith("/") ? explicitPermalink : `/${explicitPermalink}`;
+    return `${siteUrl}${baseUrl}${normalized}`;
+  }
+  const categories = Array.isArray(data.categories)
+    ? data.categories
+    : String(data.categories || "").split(/\s+/).filter(Boolean);
+  const categoryPath = categories.map((category) => encodeURIComponent(category)).join("/");
+  const prefix = categoryPath ? `/${categoryPath}` : "";
+  return `${siteUrl}${baseUrl}${prefix}/${year}/${month}/${day}/${slug}.html`;
 }
 
 function stripMarkdown(markdown) {
@@ -147,7 +157,7 @@ function draftForPost(postPath, config) {
   const source = read(postPath);
   const { data, body } = parseFrontMatter(source);
   const fileName = path.basename(postPath);
-  const url = postUrl(config, fileName);
+  const url = postUrl(config, fileName, data);
   const date = fileName.slice(0, 10);
   const slug = fileName.slice(11).replace(/\.md$/, "");
   const title = data.title || slug.replace(/-/g, " ");

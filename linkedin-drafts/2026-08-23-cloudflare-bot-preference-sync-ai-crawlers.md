@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/23/cloudflare-bot-preference-sync-ai-crawlers/
+Source post: https://blogs.a2techify.com/ai/security/2026/08/23/cloudflare-bot-preference-sync-ai-crawlers.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Cloudflare's Bot Preference Sync turns AI bot policy into a generated robots.txt
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/23/cloudflare-bot-preference-sync-ai-crawlers/
+Read the full note: https://blogs.a2techify.com/ai/security/2026/08/23/cloudflare-bot-preference-sync-ai-crawlers.html
 
 ## Publishing Notes
 

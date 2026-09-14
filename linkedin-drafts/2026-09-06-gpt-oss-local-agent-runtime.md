@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/09/06/gpt-oss-local-agent-runtime/
+Source post: https://blogs.a2techify.com/ai/engineering/2026/09/06/gpt-oss-local-agent-runtime.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ OpenAI's gpt-oss models make open-weight reasoning practical for agent stacks, b
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/09/06/gpt-oss-local-agent-runtime/
+Read the full note: https://blogs.a2techify.com/ai/engineering/2026/09/06/gpt-oss-local-agent-runtime.html
 
 ## Publishing Notes
 

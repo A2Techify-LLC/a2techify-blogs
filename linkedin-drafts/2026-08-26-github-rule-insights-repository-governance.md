@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/26/github-rule-insights-repository-governance/
+Source post: https://blogs.a2techify.com/security/engineering/2026/08/26/github-rule-insights-repository-governance.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ GitHub's rule insights dashboard is now generally available at repository and or
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/26/github-rule-insights-repository-governance/
+Read the full note: https://blogs.a2techify.com/security/engineering/2026/08/26/github-rule-insights-repository-governance.html
 
 ## Publishing Notes
 

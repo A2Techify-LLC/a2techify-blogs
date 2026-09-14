@@ -2,7 +2,7 @@
 
 LinkedIn newsletter draft for A2Techify Field Notes.
 
-Source post: https://blogs.a2techify.com/2026/08/22/docker-sandboxes-agent-ci-blast-radius/
+Source post: https://blogs.a2techify.com/security/engineering/2026/08/22/docker-sandboxes-agent-ci-blast-radius.html
 LinkedIn URL: TODO after publishing
 
 ## Newsletter Title
@@ -22,7 +22,7 @@ Docker's GitHub Agentic Workflows integration gives coding agents a microVM sand
 
 ## CTA
 
-Read the full note: https://blogs.a2techify.com/2026/08/22/docker-sandboxes-agent-ci-blast-radius/
+Read the full note: https://blogs.a2techify.com/security/engineering/2026/08/22/docker-sandboxes-agent-ci-blast-radius.html
 
 ## Publishing Notes
 
