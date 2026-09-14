@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Copilot Code Review Shell Tools</title>
+  <desc id="desc">A branded A2Techify social card for a GitHub Copilot code review article.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#8cffc1" stroke-opacity=".42" stroke-width="2"/>
+  <text x="104" y="145" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="244" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="900">Copilot Code Review</text>
+  <text x="104" y="318" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="900">Gets Test Tools</text>
+  <text x="104" y="420" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="32">Shell-backed checks make AI review more operational.</text>
+  <rect x="784" y="176" width="326" height="300" rx="8" fill="#0d0f0c" stroke="#ff7a66" stroke-width="8"/>
+  <rect x="784" y="176" width="326" height="56" rx="8" fill="#ff7a66"/>
+  <circle cx="822" cy="204" r="8" fill="#10120f"/>
+  <circle cx="850" cy="204" r="8" fill="#10120f"/>
+  <circle cx="878" cy="204" r="8" fill="#10120f"/>
+  <path d="M828 290l34 32-34 32" fill="none" stroke="#d5ff61" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M894 356h128" stroke="#f7f8f5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M844 424h220" stroke="#8cffc1" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="988" cy="322" r="74" fill="none" stroke="#d5ff61" stroke-width="12"/>
+  <path d="M948 322l28 28 56-64" fill="none" stroke="#d5ff61" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M786 510c56-40 120-40 176 0s120 40 176 0" fill="none" stroke="#ff7a66" stroke-width="16" stroke-linecap="round"/>
+  <path d="M824 534h72m114 0h72" stroke="#8cffc1" stroke-width="14" stroke-linecap="round"/>
+</svg>
