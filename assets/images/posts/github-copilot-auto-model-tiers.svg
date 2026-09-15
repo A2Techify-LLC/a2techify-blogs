@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Copilot auto model tiers</title>
+  <desc id="desc">A dark A2Techify social card showing Copilot auto routing through efficiency, balance, and intelligence tiers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0b1320"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a3e635"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#0f172a" stroke="#243044" stroke-width="2"/>
+  <text x="84" y="116" fill="#93c5fd" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">A2Techify Field Notes</text>
+  <text x="84" y="186" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Copilot Auto Gets</text>
+  <text x="84" y="250" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Cost And Quality Tiers</text>
+  <text x="86" y="306" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="26">Efficiency, Balance, and Intelligence turn model choice</text>
+  <text x="86" y="342" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="26">into an operations setting for agents and devtools.</text>
+  <g transform="translate(95 414)">
+    <rect x="0" y="0" width="270" height="98" rx="16" fill="#082f49" stroke="#22d3ee" stroke-width="2"/>
+    <text x="28" y="42" fill="#e0f2fe" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Efficiency</text>
+    <text x="28" y="72" fill="#bae6fd" font-family="Inter, Arial, sans-serif" font-size="20">cost first</text>
+    <rect x="330" y="0" width="270" height="98" rx="16" fill="#1f2937" stroke="#a3e635" stroke-width="2"/>
+    <text x="358" y="42" fill="#f7fee7" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Balance</text>
+    <text x="358" y="72" fill="#d9f99d" font-family="Inter, Arial, sans-serif" font-size="20">cost + latency + quality</text>
+    <rect x="660" y="0" width="270" height="98" rx="16" fill="#451a03" stroke="#f59e0b" stroke-width="2"/>
+    <text x="688" y="42" fill="#fffbeb" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Intelligence</text>
+    <text x="688" y="72" fill="#fde68a" font-family="Inter, Arial, sans-serif" font-size="20">quality first</text>
+    <path d="M282 49h36M612 49h36" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(770 118)">
+    <circle cx="144" cy="120" r="88" fill="#111827" stroke="#334155" stroke-width="2"/>
+    <path d="M100 126c10-48 42-74 86-74 36 0 66 20 82 51" fill="none" stroke="#22d3ee" stroke-width="12" stroke-linecap="round"/>
+    <path d="M226 141c-12 38-41 59-80 59-37 0-68-20-83-52" fill="none" stroke="#a3e635" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="144" cy="120" r="24" fill="#f8fafc"/>
+    <text x="45" y="260" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Auto routes each prompt</text>
+  </g>
+</svg>
