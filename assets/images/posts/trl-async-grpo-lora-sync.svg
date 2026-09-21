@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">TRL Async GRPO Can Sync LoRA Adapters Instead of Full Weights</title>
+  <desc id="desc">A branded A2Techify social card for an article about TRL Async GRPO and LoRA adapter synchronization.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#8cffc1" stroke-opacity=".35" stroke-width="2"/>
+  <text x="104" y="145" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="245" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">Async GRPO</text>
+  <text x="104" y="311" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">LoRA Sync</text>
+  <text x="104" y="405" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="30">Move adapters, not full model weights.</text>
+  <rect x="734" y="128" width="360" height="374" rx="8" fill="#10120f" stroke="#80e9ff" stroke-width="10"/>
+  <rect x="798" y="188" width="232" height="70" rx="8" fill="#171a15" stroke="#f7f8f5" stroke-opacity=".82" stroke-width="8"/>
+  <text x="840" y="234" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Trainer</text>
+  <rect x="782" y="332" width="264" height="86" rx="8" fill="#171a15" stroke="#8cffc1" stroke-width="8"/>
+  <text x="845" y="386" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">vLLM</text>
+  <path d="M914 258v74" stroke="#8cffc1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M886 303l28 29 28-29" fill="none" stroke="#8cffc1" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="778" cy="290" r="28" fill="#ffca5f"/>
+  <circle cx="850" cy="290" r="28" fill="#ffca5f"/>
+  <circle cx="922" cy="290" r="28" fill="#ffca5f"/>
+  <circle cx="994" cy="290" r="28" fill="#ffca5f"/>
+  <path d="M778 290h216" stroke="#ff7a66" stroke-width="10" stroke-linecap="round" stroke-dasharray="18 18"/>
+  <path d="M732 460h-92M1096 460h42M662 460l-34-24v48z" fill="#8cffc1"/>
+  <path d="M1080 460l34-24v48z" fill="#8cffc1"/>
+  <text x="780" y="475" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="24">versioned adapters</text>
+</svg>
