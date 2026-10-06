@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Repo-Local Skills Turn Agent Work Into Maintained Workflows</title>
+  <desc id="desc">A branded A2Techify social card for a field note about repo-local skills and agent workflows.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="246" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Repo-Local Skills</text>
+  <text x="104" y="314" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Make Agent Work</text>
+  <text x="104" y="382" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Repeatable</text>
+  <text x="104" y="468" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="30">Version the workflow. Load the details only when needed.</text>
+  <rect x="820" y="158" width="246" height="318" rx="8" fill="#0f1414" stroke="#80e9ff" stroke-opacity=".65" stroke-width="2"/>
+  <rect x="852" y="200" width="182" height="22" rx="4" fill="#ffca5f"/>
+  <rect x="852" y="254" width="150" height="18" rx="4" fill="#c8cec3" opacity=".82"/>
+  <rect x="852" y="300" width="178" height="18" rx="4" fill="#8cffc1" opacity=".9"/>
+  <rect x="852" y="346" width="130" height="18" rx="4" fill="#c8cec3" opacity=".82"/>
+  <path d="M782 233h-72v170h72" fill="none" stroke="#80e9ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="704" cy="233" r="20" fill="#8cffc1"/>
+  <circle cx="704" cy="403" r="20" fill="#ffca5f"/>
+  <circle cx="782" cy="318" r="24" fill="#80e9ff"/>
+</svg>
