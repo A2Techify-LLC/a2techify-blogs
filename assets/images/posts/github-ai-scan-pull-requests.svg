@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub AI Scan Expands Pull Request Security Coverage</title>
+  <desc id="desc">A branded A2Techify social card showing a pull request moving through an AI security scan.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="246" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">GitHub AI Scan</text>
+  <text x="104" y="314" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Expands PR Security</text>
+  <text x="104" y="382" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Coverage</text>
+  <text x="104" y="468" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="30">Useful signal. Advisory only. Budget the AI credits.</text>
+  <rect x="846" y="164" width="224" height="304" rx="12" fill="#0f1414" stroke="#80e9ff" stroke-opacity=".7" stroke-width="3"/>
+  <path d="M958 202l73 28v60c0 56-31 99-73 122-42-23-73-66-73-122v-60z" fill="#18231e" stroke="#8cffc1" stroke-width="5"/>
+  <path d="M928 294l23 23 42-51" fill="none" stroke="#8cffc1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="818" cy="238" r="18" fill="#ffca5f"/>
+  <circle cx="818" cy="316" r="18" fill="#80e9ff"/>
+  <circle cx="818" cy="394" r="18" fill="#8cffc1"/>
+  <path d="M728 238h72M728 316h72M728 394h72" stroke="#c8cec3" stroke-width="8" stroke-linecap="round"/>
+  <path d="M818 238v156" stroke="#59635a" stroke-width="4"/>
+</svg>
