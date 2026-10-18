@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LFM2.5-24B-A2B Brings Faster Reasoning Agents to Local Hardware"
-date: 2026-10-18 07:30:00 -0500
+date: 2026-10-18 07:15:00 -0500
 categories: [ai, engineering]
 tags: [local-ai, agents, quantization]
 description: "Liquid AI's open-weight LFM2.5-24B-A2B activates 2B of its 24B parameters per token, supports tool use, and ships in formats for local agent runtimes."
