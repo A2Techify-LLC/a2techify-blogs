@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">LFM2.5-24B-A2B Brings Faster Reasoning Agents to Local Hardware</title>
+  <desc id="desc">A branded A2Techify social card showing a mixture-of-experts model routing work through a small active path on local hardware.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="246" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">LFM2.5-24B-A2B</text>
+  <text x="104" y="314" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Faster Local</text>
+  <text x="104" y="382" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Reasoning Agents</text>
+  <text x="104" y="468" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="30">24B total. 2B active. Tool use on your hardware.</text>
+  <rect x="856" y="182" width="190" height="236" rx="14" fill="#0f1414" stroke="#80e9ff" stroke-opacity=".7" stroke-width="3"/>
+  <rect x="892" y="224" width="118" height="78" rx="10" fill="#18231e" stroke="#8cffc1" stroke-width="4"/>
+  <text x="951" y="274" text-anchor="middle" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">2B</text>
+  <circle cx="802" cy="213" r="16" fill="#59635a"/>
+  <circle cx="802" cy="271" r="16" fill="#ffca5f"/>
+  <circle cx="802" cy="329" r="16" fill="#59635a"/>
+  <circle cx="802" cy="387" r="16" fill="#80e9ff"/>
+  <path d="M818 213h38M818 271h38M818 329h38M818 387h38" stroke="#c8cec3" stroke-width="6" stroke-linecap="round"/>
+  <path d="M856 271h-38M856 387h-38" stroke="#8cffc1" stroke-width="5" stroke-linecap="round"/>
+  <path d="M951 302v61" stroke="#8cffc1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M921 349l30 30 30-30" fill="none" stroke="#8cffc1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="951" y="454" text-anchor="middle" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">LOCAL AGENT</text>
+</svg>
