@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">llama.cpp v0.7.0 Adds a GPU Cache for CPU-Offloaded MoE Experts</title>
+  <desc id="desc">A branded A2Techify social card showing frequently used model experts moving from host memory into a compact GPU cache.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="244" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">llama.cpp v0.7.0</text>
+  <text x="104" y="312" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">Caches Hot MoE</text>
+  <text x="104" y="380" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">Experts in VRAM</text>
+  <text x="104" y="468" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="28">Keep the full expert set in RAM. Reuse the hot path on GPU.</text>
+  <rect x="833" y="183" width="102" height="244" rx="12" fill="#0f1414" stroke="#80e9ff" stroke-width="3"/>
+  <text x="884" y="218" text-anchor="middle" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800">HOST</text>
+  <rect x="852" y="241" width="64" height="32" rx="6" fill="#59635a"/>
+  <rect x="852" y="288" width="64" height="32" rx="6" fill="#ffca5f"/>
+  <rect x="852" y="335" width="64" height="32" rx="6" fill="#59635a"/>
+  <rect x="852" y="382" width="64" height="32" rx="6" fill="#8cffc1"/>
+  <path d="M936 304h54" stroke="#ffca5f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M976 289l16 15-16 15" fill="none" stroke="#ffca5f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="997" y="229" width="94" height="151" rx="12" fill="#18231e" stroke="#8cffc1" stroke-width="4"/>
+  <text x="1044" y="267" text-anchor="middle" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800">GPU</text>
+  <rect x="1018" y="289" width="52" height="52" rx="8" fill="#ffca5f"/>
+  <text x="1044" y="321" text-anchor="middle" fill="#10120f" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">LRU</text>
+  <text x="1044" y="416" text-anchor="middle" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">HOT EXPERTS</text>
+</svg>
