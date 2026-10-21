@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "llama.cpp v0.7.0 Adds a GPU Cache for CPU-Offloaded MoE Experts"
-date: 2026-10-21 07:30:00 -0500
+date: 2026-10-21 01:30:00 -0500
 categories: [ai, engineering]
 tags: [local-ai, quantization, gpu-management]
 description: "llama.cpp v0.7.0 can cache frequently used MoE experts on the GPU while keeping the full expert set in system memory."
