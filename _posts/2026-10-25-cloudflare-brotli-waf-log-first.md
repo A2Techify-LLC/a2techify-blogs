@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cloudflare's Brotli WAF Rules Start in Log Mode for a Reason"
-date: 2026-10-25 23:49:00 -0500
+date: 2026-10-25 18:49:00 -0500
 categories: [security, engineering]
 tags: [cloudflare, security, infrastructure]
 description: "Cloudflare added emergency WAF detections for Brotli request bodies and the Next.js image endpoint, but operators should audit inherited overrides before changing either rule from Log to Block."
