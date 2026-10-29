@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Chrome DevTools MCP 1.12 Can Reload Agent Browser Policy Live</title>
+  <desc id="desc">A branded A2Techify social card showing a browser agent policy file updating a guarded browser.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="246" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">Live Policy for</text>
+  <text x="104" y="312" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">Browser Agents</text>
+  <text x="104" y="401" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="28">Chrome DevTools MCP 1.12</text>
+  <text x="104" y="463" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="24">live allowlists · offline heaps · parallel pages</text>
+  <g transform="translate(802 154)">
+    <rect x="0" y="20" width="250" height="176" rx="14" fill="#111914" stroke="#80e9ff" stroke-width="5"/>
+    <rect x="0" y="20" width="250" height="34" rx="12" fill="#26342d"/>
+    <circle cx="22" cy="37" r="6" fill="#ff6b6b"/>
+    <circle cx="43" cy="37" r="6" fill="#ffca5f"/>
+    <circle cx="64" cy="37" r="6" fill="#8cffc1"/>
+    <path d="M35 88h80M35 119h130M35 150h104" stroke="#c8cec3" stroke-width="9" stroke-linecap="round"/>
+    <path d="M176 95l32 12v27c0 25-14 44-32 55-18-11-32-30-32-55v-27z" fill="#18231e" stroke="#8cffc1" stroke-width="4"/>
+    <path d="M163 136l9 9 19-22" fill="none" stroke="#ffca5f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-34" y="237" width="158" height="72" rx="9" fill="#202820" stroke="#ffca5f" stroke-width="4"/>
+    <text x="45" y="267" text-anchor="middle" fill="#f7f8f5" font-family="monospace" font-size="17">policy.json</text>
+    <text x="45" y="291" text-anchor="middle" fill="#8cffc1" font-family="monospace" font-size="15">watch: true</text>
+    <path d="M132 273h72c24 0 34-14 34-34v-25" fill="none" stroke="#80e9ff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M226 225l12-14 12 14" fill="none" stroke="#80e9ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
