@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">The eMudhra CA Compromise Is a Runtime Patch Problem</title>
+  <desc id="desc">An A2Techify field note card showing a broken certificate chain crossing browser, runtime, container, and proxy trust stores.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="235" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900">A Revoked CA Still Needs</text>
+  <text x="104" y="298" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900">Runtime-Level Patching</text>
+  <text x="104" y="380" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="28">Test the trust store your production client actually uses</text>
+  <text x="104" y="450" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="24">BROWSER · RUNTIME · CONTAINER · PROXY</text>
+  <g transform="translate(850 154)">
+    <rect x="0" y="0" width="214" height="276" rx="14" fill="#18231e" stroke="#8cffc1" stroke-width="5"/>
+    <path d="M47 71h120M47 112h86M47 153h120" stroke="#c8cec3" stroke-width="10" stroke-linecap="round"/>
+    <path d="M42 232l130-130M42 102l130 130" stroke="#ff6f6f" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="178" cy="35" r="14" fill="#ffca5f"/>
+  </g>
+  <path d="M700 220h102M700 300h102M700 380h102" stroke="#c8cec3" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="678" cy="220" r="13" fill="#80e9ff"/>
+  <circle cx="678" cy="300" r="13" fill="#ffca5f"/>
+  <circle cx="678" cy="380" r="13" fill="#8cffc1"/>
+</svg>
