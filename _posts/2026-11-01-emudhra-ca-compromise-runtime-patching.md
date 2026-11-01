@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The eMudhra CA Compromise Is a Runtime Patch Problem"
-date: 2026-11-01 00:18:00 -0500
+date: 2026-11-01 00:03:00 -0500
 categories: [security, engineering]
 tags: [security, infrastructure, supply-chain]
 description: "Eight eMudhra intermediate CA keys were recoverable from public certificates. Browsers moved quickly, but runtimes, containers, proxies, and embedded clients need explicit trust-store updates and tests."
