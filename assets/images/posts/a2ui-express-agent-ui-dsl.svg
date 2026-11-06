@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">A2UI Express Moves Agent UI Generation Out of JSON</title>
+  <desc id="desc">An A2Techify field note card showing compact agent output compiled into validated UI messages.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="235" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="900">A2UI Express Gives Agents</text>
+  <text x="104" y="297" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="900">A Smaller UI Language</text>
+  <text x="104" y="374" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="27">Generate compact syntax · compile strict messages</text>
+  <text x="104" y="452" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="24">CATALOG · DSL · COMPILER · VALIDATION</text>
+  <g transform="translate(790 142)">
+    <rect x="0" y="40" width="132" height="210" rx="10" fill="#18231e" stroke="#80e9ff" stroke-width="4"/>
+    <text x="66" y="78" fill="#f7f8f5" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">EXPRESS</text>
+    <path d="M25 112H105M25 143H88M25 174H101M25 205H78" stroke="#8cffc1" stroke-width="7" stroke-linecap="round"/>
+    <path d="M145 145H202" stroke="#c8cec3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M188 130L205 145L188 160" fill="none" stroke="#c8cec3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="238" cy="145" r="36" fill="#18231e" stroke="#ffca5f" stroke-width="4"/>
+    <path d="M222 145L234 157L257 132" fill="none" stroke="#ffca5f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M274 145H320" stroke="#c8cec3" stroke-width="6" stroke-linecap="round"/>
+    <rect x="320" y="76" width="120" height="138" rx="10" fill="#18231e" stroke="#8cffc1" stroke-width="4"/>
+    <rect x="340" y="98" width="80" height="24" rx="5" fill="#80e9ff" opacity=".8"/>
+    <rect x="340" y="137" width="34" height="52" rx="5" fill="#ffca5f" opacity=".9"/>
+    <rect x="386" y="137" width="34" height="52" rx="5" fill="#8cffc1" opacity=".9"/>
+    <text x="220" y="300" fill="#c8cec3" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19">COMPILE, THEN RENDER</text>
+  </g>
+</svg>
