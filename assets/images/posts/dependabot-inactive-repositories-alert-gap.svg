@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Dependabot Will Pause Alerts on Inactive Repositories</title>
+  <desc id="desc">A branded A2Techify social card showing a repository security alert timeline approaching December 8.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="238" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">Dependabot Alerts:</text>
+  <text x="104" y="302" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">Audit Inactive Repos</text>
+  <text x="104" y="394" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="28">One year without a push can create a coverage gap</text>
+  <text x="104" y="458" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="25">Inventory · Assign ownership · Enforce policy</text>
+  <g transform="translate(845 153)">
+    <path d="M24 42h224v224H24z" fill="#18231e" stroke="#8cffc1" stroke-width="5"/>
+    <path d="M61 99h150M61 145h150M61 191h94" stroke="#c8cec3" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="207" cy="210" r="66" fill="#171a15" stroke="#ffca5f" stroke-width="7"/>
+    <path d="M207 176v42l27 17" fill="none" stroke="#80e9ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M61 238h73" stroke="#ff6b6b" stroke-width="11" stroke-linecap="round"/>
+    <text x="136" y="326" text-anchor="middle" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">DEC 8</text>
+  </g>
+</svg>
