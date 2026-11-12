@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dependabot Will Pause Alerts on Inactive Repositories: Audit Before December 8"
-date: 2026-11-11 22:39:00 -0600
+date: 2026-11-11 07:30:00 -0600
 categories: [security, engineering]
 tags: [github, security, supply-chain]
 description: "GitHub will pause Dependabot alerts on many repositories after one year without activity. Here is how to find the candidates, preserve coverage, and avoid fake keepalive commits."
