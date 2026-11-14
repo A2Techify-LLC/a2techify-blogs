@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Kitesurf Is Open Source: Test an Agent Browser Without Chromium</title>
+  <desc id="desc">A branded A2Techify social card showing an agent connecting through CDP to a lightweight browser engine.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="238" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">Kitesurf:</text>
+  <text x="104" y="302" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">An Agent Browser Opens Up</text>
+  <text x="104" y="394" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="28">CDP control without a Chromium process tree</text>
+  <text x="104" y="458" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="25">Run locally · Measure compatibility · Guard access</text>
+  <g transform="translate(854 150)">
+    <path d="M25 40h230v160H25z" fill="#18231e" stroke="#8cffc1" stroke-width="5"/>
+    <path d="M25 78h230" stroke="#8cffc1" stroke-width="5"/>
+    <circle cx="48" cy="59" r="7" fill="#ff6b6b"/>
+    <circle cx="70" cy="59" r="7" fill="#ffca5f"/>
+    <circle cx="92" cy="59" r="7" fill="#8cffc1"/>
+    <path d="M61 116h82M61 146h132" stroke="#c8cec3" stroke-width="9" stroke-linecap="round"/>
+    <path d="M9 250h262" stroke="#80e9ff" stroke-width="7" stroke-linecap="round" stroke-dasharray="12 14"/>
+    <path d="M247 233l28 17-28 17" fill="none" stroke="#80e9ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="59" cy="250" r="34" fill="#171a15" stroke="#ffca5f" stroke-width="6"/>
+    <path d="M47 248l9 9 17-20" fill="none" stroke="#8cffc1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="321" text-anchor="middle" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">CDP + WASM</text>
+  </g>
+</svg>
