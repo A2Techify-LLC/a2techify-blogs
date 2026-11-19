@@ -15,10 +15,8 @@ Microsoft is replacing Phi Silica with the 2.3B-parameter Aion Instruct model, e
 
 ## Takeaways
 
-- Aion drops from 3.8B to 2.3B parameters while raising the input context limit from 3.5K to 32K tokens.
-- Custom prompts and exact-string parsers need regression tests; invisible watermarking can make visually identical output differ at the byte level.
-- Phi Silica LoRAs must be retrained for Aion, then evaluated against both plain Aion and the old production path.
-- GPU support and retail rollout are staged, so applications still need readiness checks and a fallback.
+- Aion Instruct is Microsoft's next local language model for Windows. The published transition plan is staged:
+- The missing piece is the promised Aion technical report.
 
 ## CTA
 
