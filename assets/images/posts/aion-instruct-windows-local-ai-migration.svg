@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Aion Instruct Replaces Phi Silica: Test Your Windows Local AI App Now</title>
+  <desc id="desc">A branded A2Techify social card showing a local Windows AI model migration from Phi Silica to Aion Instruct.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="238" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">Aion Instruct:</text>
+  <text x="104" y="302" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">Test The Local AI Migration</text>
+  <text x="104" y="394" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="28">2.3B parameters · 32K context · GPU expansion</text>
+  <text x="104" y="458" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="25">Recheck prompts · Retrain LoRAs · Validate parsing</text>
+  <g transform="translate(866 151)">
+    <rect x="0" y="0" width="230" height="154" rx="12" fill="#18231e" stroke="#8cffc1" stroke-width="5"/>
+    <rect x="30" y="29" width="170" height="96" rx="5" fill="#10120f" stroke="#80e9ff" stroke-width="4"/>
+    <path d="M76 151h78M94 125v26M136 125v26" fill="none" stroke="#8cffc1" stroke-width="7" stroke-linecap="round"/>
+    <text x="115" y="90" text-anchor="middle" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">LOCAL</text>
+    <path d="M18 232h194" stroke="#80e9ff" stroke-width="7" stroke-linecap="round" stroke-dasharray="12 14"/>
+    <path d="M190 215l28 17-28 17" fill="none" stroke="#80e9ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="115" y="303" text-anchor="middle" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">PHI → AION</text>
+  </g>
+</svg>
