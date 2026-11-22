@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">llama.cpp 1.0 makes API breaks explicit</title>
+  <desc id="desc">A branded A2Techify social card showing a pinned local AI runtime moving through a version boundary.</desc>
+  <rect width="1200" height="630" fill="#10120f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#171a15" stroke="#ffca5f" stroke-opacity=".4" stroke-width="2"/>
+  <text x="104" y="145" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">A2Techify Field Notes</text>
+  <text x="104" y="238" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">llama.cpp 1.0:</text>
+  <text x="104" y="302" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="51" font-weight="900">A Clearer API Contract</text>
+  <text x="104" y="394" fill="#c8cec3" font-family="Inter, Arial, sans-serif" font-size="28">Major means breaking · Minor adds · Patch fixes</text>
+  <text x="104" y="458" fill="#80e9ff" font-family="Inter, Arial, sans-serif" font-size="25">Pin the release · Compile · Benchmark · Roll back</text>
+  <g transform="translate(875 145)">
+    <rect x="0" y="0" width="205" height="205" rx="18" fill="#18231e" stroke="#8cffc1" stroke-width="5"/>
+    <text x="102" y="82" text-anchor="middle" fill="#ffca5f" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">libllama</text>
+    <text x="102" y="145" text-anchor="middle" fill="#f7f8f5" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="900">1.0</text>
+    <path d="M102 205v95" stroke="#80e9ff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M82 276l20 25 20-25" fill="none" stroke="#80e9ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="24" y="320" width="157" height="62" rx="8" fill="#171a15" stroke="#ffca5f" stroke-width="4"/>
+    <text x="102" y="361" text-anchor="middle" fill="#8cffc1" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">PINNED</text>
+  </g>
+</svg>
