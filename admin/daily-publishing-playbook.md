@@ -2,6 +2,12 @@
 
 This is the working checklist for publishing a field note. Use it as a guardrail, not a rigid article template.
 
+## Repository Sync
+
+Before researching or writing, fetch `origin` and rebase the local `main` branch onto `origin/main`. Stop and report the blocker if the worktree has unrelated local changes or the rebase conflicts; never force-push `main`.
+
+Fetch again immediately before the final push. If `origin/main` advanced during the run, rebase the local publication commit onto it, rerun `tools/validate-site-docker.sh`, and use a normal push.
+
 ## Selection
 
 Pick one technology item that is genuinely useful to builders. Prefer:
