@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PostgreSQL 19 Adds Online REPACK: Budget the Disk Before You Run It"
-date: 2026-11-24 18:46:00 -0600
+date: 2026-11-24 07:30:00 -0600
 categories: [databases, engineering]
 tags: [infrastructure, devtools]
 description: "PostgreSQL 19 adds built-in concurrent table repacking, plan advice, read-your-writes on standbys, and a simpler get-or-create statement."
