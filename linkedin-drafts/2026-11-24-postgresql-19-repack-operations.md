@@ -15,9 +15,8 @@ PostgreSQL 19 adds built-in concurrent table repacking, plan advice, read-your-w
 
 ## Takeaways
 
-- `REPACK (CONCURRENTLY)` moves online table rewrites into core PostgreSQL, but it still needs room for another copy of the table and indexes, produces WAL, and has an old-snapshot caveat.
-- PostgreSQL 19 also adds atomic `INSERT ... ON CONFLICT DO SELECT`, explicit read-your-writes coordination on standbys, plan advice, and smarter autovacuum scheduling.
-- Treat version 19 as a major database migration: prove extension support, rehearse `pg_upgrade` or dump/restore, and measure the changed JIT and TOAST compression defaults.
+- PostgreSQL 19 was released on November 19, 2026. The headline operational additions include:
+- The first production reports around concurrent repack will matter more than small synthetic benchmarks: final-lock duration, WAL volume, failure behavior under write-heavy workloads,...
 
 ## CTA
 
