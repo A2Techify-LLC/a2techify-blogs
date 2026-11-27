@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">uv 0.13.10 closes a ZIP parser gap</title>
+  <desc id="desc">A branded A2Techify social card showing one verified archive producing conflicting parser interpretations before being rejected.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#10283b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39d6c8"/>
+      <stop offset="1" stop-color="#4d8dff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="70" r="220" fill="#1f6feb" opacity=".12"/>
+  <circle cx="1110" cy="560" r="250" fill="#35d0ba" opacity=".08"/>
+  <g transform="translate(74 72)">
+    <rect width="88" height="6" rx="3" fill="url(#accent)"/>
+    <text x="0" y="52" fill="#80a9c1" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" letter-spacing="4">A2TECHIFY FIELD NOTES</text>
+    <text x="0" y="150" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="62" font-weight="700">uv 0.13.10 closes</text>
+    <text x="0" y="224" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="62" font-weight="700">a ZIP parser gap</text>
+    <text x="0" y="294" fill="#9dc4d9" font-family="DejaVu Sans, sans-serif" font-size="29">Same bytes. Different extraction. Reject.</text>
+    <g transform="translate(0 352)">
+      <rect width="190" height="50" rx="25" fill="#12374a" stroke="#39d6c8" stroke-width="2"/>
+      <text x="95" y="33" text-anchor="middle" fill="#9ff4e9" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700">SUPPLY CHAIN</text>
+      <rect x="208" width="174" height="50" rx="25" fill="#142d4b" stroke="#4d8dff" stroke-width="2"/>
+      <text x="295" y="33" text-anchor="middle" fill="#a9caff" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700">PYTHON OPS</text>
+    </g>
+  </g>
+  <g transform="translate(820 116)">
+    <path d="M38 42h200l48 48v188H38z" fill="#102b40" stroke="#4d8dff" stroke-width="4"/>
+    <path d="M238 42v48h48" fill="none" stroke="#4d8dff" stroke-width="4"/>
+    <path d="M125 73h54v40h-54zm0 40h54v40h-54zm0 40h54v40h-54zm0 40h54v40h-54z" fill="none" stroke="#39d6c8" stroke-width="5"/>
+    <text x="162" y="260" text-anchor="middle" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700">package.zip</text>
+    <path d="M78 310l-45 48 45 48M246 310l45 48-45 48" fill="none" stroke="#80a9c1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="99" y="315" width="126" height="86" rx="14" fill="#351c27" stroke="#ff6b7a" stroke-width="4"/>
+    <path d="M130 344l64 30m0-30l-64 30" stroke="#ff6b7a" stroke-width="8" stroke-linecap="round"/>
+    <text x="162" y="445" text-anchor="middle" fill="#9ff4e9" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700">FAIL CLOSED</text>
+  </g>
+  <text x="75" y="585" fill="#688da4" font-family="DejaVu Sans, sans-serif" font-size="21">Practical notes for builders and operators</text>
+</svg>
