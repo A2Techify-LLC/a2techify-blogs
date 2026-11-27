@@ -15,10 +15,8 @@ uv 0.13.10 rejects ZIP archives whose size records disagree, closing a parser di
 
 ## Takeaways
 
-- uv 0.1.29 through 0.13.9 could extract different content than pip from the same hash-verified ZIP archive.
-- uv 0.13.10 rejects members whose data descriptor and central directory disagree about compressed size.
-- Upgrade pinned CI and container copies, rebuild long-lived images, then run `uv lock --check` and the normal locked test path.
-- A matching digest proves byte identity; it does not prove that two parsers interpret those bytes identically.
+- A ZIP member that uses a data descriptor can record its compressed size in two places:
+- Parser differentials are not unique to Python packaging.
 
 ## CTA
 
